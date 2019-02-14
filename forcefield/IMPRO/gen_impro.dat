@@ -1,0 +1,138 @@
+X  X  C  O          10.5         180.          2.           JCC,7,(1986),230
+X  O2 C  O2         10.5         180.          2.           JCC,7,(1986),230
+X  X  N  H          1.0          180.          2.           JCC,7,(1986),230
+X  X  N2 H          1.0          180.          2.           JCC,7,(1986),230
+X  X  NA H          1.0          180.          2.           JCC,7,(1986),230
+X  N2 CA N2         10.5         180.          2.           JCC,7,(1986),230
+X  CT N  CT         1.0          180.          2.           JCC,7,(1986),230
+X  X  CA HA         1.1          180.          2.           bsd.on C6H6 nmodes
+X  X  CW H4         1.1          180.          2.
+X  X  CR H5         1.1          180.          2.
+X  X  CV H4         1.1          180.          2.
+X  X  CQ H5         1.1          180.          2.
+X  X  CK H5         1.1          180.          2.
+X  X  CM H4         1.1          180.          2.
+X  X  CM HA         1.1          180.          2.
+X  X  CA H4         1.1          180.          2.           bsd.on C6H6 nmodes 
+X  X  CA H5         1.1          180.          2.           bsd.on C6H6 nmodes
+CB CK N* CT         1.0          180.          2.
+C  CM N* CT         1.0          180.          2.           dac guess, 9/94
+C  CM CM CT         1.1          180.          2. 
+CT O  C  OH         10.5         180.          2.
+CT CV CC NA         1.1          180.          2.
+CT CW CC NB         1.1          180.          2.
+CT CW CC NA         1.1          180.          2.
+CB CT C* CW         1.1          180.          2.
+CA CA CA CT         1.1          180.          2. 
+C  CM CM CT         1.1          180.          2.           dac guess, 9/94
+CM N2 CA NC         1.1          180.          2.           dac guess, 9/94
+CB N2 CA NC         1.1          180.          2.           dac, 10/94
+N2 NA CA NC         1.1          180.          2.           dac, 10/94
+CA CA C  OH         1.1          180.          2.           (not used in tyr!)
+CA CA CA OH         1.1          180.          2.           in tyr
+H5 O  C  OH         1.1          180.          2.           Junmei et al.1999
+H5 O  C  OS         1.1          180.          2.           
+CM CT CM HA         1.1          180.          2.           Junmei et al.1999
+CM H4 C  O          1.1          180.          2.           Junmei et al.1999
+C  CT N  H          1.1          180.          2.           Junmei et al.1999
+C  CT N  O          1.1          180.          2.           Junmei et al.1999
+C  C  N  H          1.1          180.0         2.0          Using default value
+C  C* CB CB         1.1          180.0         2.0          Using default value
+C  CA CM CM         1.1          180.0         2.0          Using default value
+C  CA N* CB         1.1          180.0         2.0          Using default value
+C  CA NA H          1.1          180.0         2.0          Using default value
+C  CB CB N*         1.1          180.0         2.0          Using default value
+C  CB CB NB         1.1          180.0         2.0          Using default value
+C  CM CM CT         1.1          180.0         2.0          Using default value
+C  CM CM HA         1.1          180.0         2.0          Using default value
+C  CM CM OH         1.1          180.0         2.0          Using default value
+C  CM CM OS         1.1          180.0         2.0          Using default value
+C  CT N  CT         1.1          180.0         2.0          Using default value
+C  CT N  H          1.1          180.0         2.0          Using default value
+C  H  N  H          1.1          180.0         2.0          Using default value
+C* H4 CA N*         1.1          180.0         2.0          Using default value
+C* N  CM NT         1.1          180.0         2.0          Using default value
+CA CB C* CM         1.1          180.0         2.0          Using default value
+CA CB C* CT         1.1          180.0         2.0          Using default value
+CA CB C* CZ         1.1          180.0         2.0          Using default value
+CA CB CB NB         1.1          180.0         2.0          Using default value
+CA CB N* CT         1.1          180.0         2.0          Using default value
+CA CB N2 CT         1.1          180.0         2.0          Using default value
+CA CM CM CT         1.1          180.0         2.0          Using default value
+CA CM CM HA         1.1          180.0         2.0          Using default value
+CA CT CC NB         1.1          180.0         2.0          Using default value
+CA H  N2 H          1.1          180.0         2.0          Using default value
+CA H  N2 HO         1.1          180.0         2.0          Using default value
+CB CB N2 CT         1.1          180.0         2.0          Using default value
+CB CB NA H          1.1          180.0         2.0          Using default value
+CB CK N* CT         1.1          180.0         2.0          Using default value
+CB CK N2 CT         1.1          180.0         2.0          Using default value
+CB CK NB CT         1.1          180.0         2.0          Using default value
+CB CM CB NB         1.1          180.0         2.0          Using default value
+CB CR N* CT         1.1          180.0         2.0          Using default value
+CB CR N2 CT         1.1          180.0         2.0          Using default value
+CB N* C  O          1.1          180.0         2.0          Using default value
+CB N* CA NC         1.1          180.0         2.0          Using default value
+CB N* CB NC         1.1          180.0         2.0          Using default value
+CB N2 CA NC         1.1          180.0         2.0          Using default value
+CB N2 CB N2         1.1          180.0         2.0          Using default value
+CB N2 CB NB         1.1          180.0         2.0          Using default value
+CB N2 CB NC         1.1          180.0         2.0          Using default value
+CB N2 CM N2         1.1          180.0         2.0          Using default value
+CB NA C  O          1.1          180.0         2.0          Using default value
+CB NA CB NB         1.1          180.0         2.0          Using default value
+CC CT CA N*         1.1          180.0         2.0          Using default value
+CC H4 CA N*         1.1          180.0         2.0          Using default value
+CM CM CM HA         1.1          180.0         2.0          Using default value
+CM CT CM CT         1.1          180.0         2.0          Using default value
+CM CT CM HA         1.1          180.0         2.0          Using default value
+CM H  N  NT         1.1          180.0         2.0          Using default value
+CM H4 C  O          1.1          180.0         2.0          Using default value
+CM H4 CM N*         1.1          180.0         2.0          Using default value
+CM H4 CM N2         1.1          180.0         2.0          Using default value
+CM H4 CM NA         1.1          180.0         2.0          Using default value
+CM N* C  O          1.1          180.0         2.0          Using default value
+CM N* CA NC         1.1          180.0         2.0          Using default value
+CM N* CM N2         1.1          180.0         2.0          Using default value
+CM N2 CA NC         1.1          180.0         2.0          Using default value
+CM N2 CM NC         1.1          180.0         2.0          Using default value
+CM NA C  O          1.1          180.0         2.0          Using default value
+CM NA CM SS         1.1          180.0         2.0          Using default value
+CT CZ CM N2         1.1          180.0         2.0          Using default value
+CT N  C  O          1.1          180.0         2.0          Using default value
+CT N* C  O          1.1          180.0         2.0          Using default value
+CT NC CQ NC         1.1          180.0         2.0          Using default value
+CT O  C  O          1.1          180.0         2.0          Using default value
+CT O  C  OH         1.1          180.0         2.0          Using default value
+CT O  C  OS         1.1          180.0         2.0          Using default value
+H5 N* CA NC         1.1          180.0         2.0          Using default value
+H5 N* CK NB         1.1          180.0         2.0          Using default value
+H5 N* CR N2         1.1          180.0         2.0          Using default value
+H5 N2 CA NC         1.1          180.0         2.0          Using default value
+H5 N2 CK NB         1.1          180.0         2.0          Using default value
+H5 NA CA NC         1.1          180.0         2.0          Using default value
+H5 NB CK NB         1.1          180.0         2.0          Using default value
+H5 NC CQ NC         1.1          180.0         2.0          Using default value
+N  N  C  O          1.1          180.0         2.0          Using default value
+N  N* C  O          1.1          180.0         2.0          Using default value
+N  O  C  OS         1.1          180.0         2.0          Using default value
+N* N* C  O          1.1          180.0         2.0          Using default value
+N* N2 CA N2         1.1          180.0         2.0          Using default value
+N* N2 CA NC         1.1          180.0         2.0          Using default value
+N* N2 CB NB         1.1          180.0         2.0          Using default value
+N* NA C  O          1.1          180.0         2.0          Using default value
+N* NA CA SS         1.1          180.0         2.0          Using default value
+N* NA CB NB         1.1          180.0         2.0          Using default value
+N* NC C  O          1.1          180.0         2.0          Using default value
+N* NC CA SS         1.1          180.0         2.0          Using default value
+N2 N2 CA NC         1.1          180.0         2.0          Using default value
+N2 NA CA NC         1.1          180.0         2.0          Using default value
+NA NA C  O          1.1          180.0         2.0          Using default value
+NC NC CQ S          1.1          180.0         2.0          Using default value
+X  X  C2 H5         1.1          180.          2. 
+CB C2 N* CT         1.0          180.          2. 
+X  X  C1 H4         1.1          180.          2. 
+X  X  C1 HA         1.1          180.          2. 
+C  C1 N* CT         1.0          180.          2.           dac guess, 9/94 
+C  C1 C1 CT         1.1          180.          2.           dac guess, 9/94 
+C1 N2 CA NC         1.1          180.          2.           dac guess, 9/94 

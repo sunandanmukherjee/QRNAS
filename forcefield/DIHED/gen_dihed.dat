@@ -1,0 +1,830 @@
+X  C  C  X    4   14.50        180.0             2.         Junmei et al, 1999
+X  C  CA X    4   14.50        180.0             2.         intrpol.bsd.on C6H6
+X  C  CB X    4   12.00        180.0             2.         intrpol.bsd.on C6H6
+X  C  CM X    4    8.70        180.0             2.         intrpol.bsd.on C6H6
+X  C  CT X    6    0.00          0.0             2.         JCC,7,(1986),230
+X  C  N  X    4   10.00        180.0             2.         AA,NMA
+X  C  N* X    4    5.80        180.0             2.         JCC,7,(1986),230
+X  C  NA X    4    5.40        180.0             2.         JCC,7,(1986),230
+X  C  NC X    2    8.00        180.0             2.         JCC,7,(1986),230
+X  C  O  X    4   11.20        180.0             2.         Junmei et al, 1999
+X  C  OH X    2    4.60        180.0             2.         Junmei et al, 1999
+X  C  OS X    2    5.40        180.0             2.         Junmei et al, 1999
+X  CA CA X    4   14.50        180.0             2.         intrpol.bsd.on C6H6
+X  CA CB X    4   14.00        180.0             2.         intrpol.bsd.on C6H6
+X  CA CM X    4   10.20        180.0             2.         intrpol.bsd.on C6H6
+X  CA CN X    4   14.50        180.0             2.         reinterpolated 93'
+X  CA CT X    6    0.00          0.0             2.         JCC,7,(1986),230
+X  CA N2 X    4    9.60        180.0             2.         reinterpolated 93'
+X  CA NA X    4    6.00        180.0             2.         JCC,7,(1986),230
+X  CA NC X    2    9.60        180.0             2.         JCC,7,(1986),230
+X  CA OH X    2    1.80        180.0             2.         Junmei et al, 99
+X  CB CB X    4   21.80        180.0             2.         intrpol.bsd.on C6H6
+X  CB CN X    4   12.00        180.0             2.         reinterpolated 93'
+X  CB N* X    4    6.60        180.0             2.         JCC,7,(1986),230
+X  CB NB X    2    5.10        180.0             2.         JCC,7,(1986),230
+X  CB NC X    2    8.30        180.0             2.         JCC,7,(1986),230
+X  CC CT X    6    0.00          0.0             2.         JCC,7,(1986),230
+X  CC CW X    4   21.50        180.0             2.         intrpol.bsd.on C6H6
+X  CC NA X    4    5.60        180.0             2.         JCC,7,(1986),230
+X  CC NB X    2    4.80        180.0             2.         JCC,7,(1986),230
+X  CD CD X    4    4.00        180.0             2.         Junmei et al, 1999
+X  CD CT X    6    0.00          0.0             2.         Junmei et al, 1999
+X  CD CM X    4   26.60        180.0             2.         Junmei et al, 1999
+X  CK N* X    4    6.80        180.0             2.         JCC,7,(1986),230
+X  CK NB X    2   20.00        180.0             2.         JCC,7,(1986),230
+X  CM CM X    4   26.60        180.0             2.         intrpol.bsd.on C6H6
+X  CM CT X    6    0.00          0.0             3.         JCC,7,(1986),230
+X  CM N* X    4    7.40        180.0             2.         JCC,7,(1986),230
+X  CM OS X    2    2.10        180.0             2.         Junmei et al, 1999
+X  CN NA X    4    6.10        180.0             2.         reinterpolated 93'
+X  CQ NC X    2   13.60        180.0             2.         JCC,7,(1986),230
+X  CT CT X    9    1.40          0.0             3.         JCC,7,(1986),230
+X  CT CZ X    3    0.00          0.0             1.         Junmei et al, 1999
+X  CT N  X    6    0.00          0.0             2.         JCC,7,(1986),230
+X  CT N* X    6    0.00          0.0             2.         JCC,7,(1986),230
+X  CT N2 X    6    0.00          0.0             3.         JCC,7,(1986),230
+X  CT NT X    6    1.80          0.0             3.         Junmei et al, 1999
+X  CT N3 X    9    1.40          0.0             3.         JCC,7,(1986),230
+X  CT OH X    3    0.50          0.0             3.         JCC,7,(1986),230
+X  CT OS X    3    1.15          0.0             3.         JCC,7,(1986),230
+X  CT S  X    3    1.00          0.0             3.         JCC,7,(1986),230
+X  C* CB X    4    6.70        180.0             2.         intrpol.bsd.onC6H6aa
+X  C* CT X    6    0.00          0.0             2.         JCC,7,(1986),230
+X  C* CW X    4   26.10        180.0             2.         intrpol.bsd.on C6H6
+X  CR NA X    4    9.30        180.0             2.         JCC,7,(1986),230
+X  CR NB X    2   10.00        180.0             2.         JCC,7,(1986),230
+X  CW NA X    4    6.00        180.0             2.         JCC,7,(1986),230
+X  OH P  X    3    0.75          0.0             3.         JCC,7,(1986),230
+X  OS P  X    3    0.75          0.0             3.         JCC,7,(1986),230
+N  CT C  N    1    1.700       180.000           1.         
+N  CT C  N    1    2.000       180.000           2.         
+C  N  CT C    1    0.850       180.000           2.         
+C  N  CT C    1    0.800         0.000           1.         
+CT CT N  C    1    0.50        180.0             4.         phi,psi,parm94
+CT CT N  C    1    0.15        180.0             3.         phi,psi,parm94
+CT CT N  C    1    0.00          0.0             2.         JCC,7,(1986),230
+CT CT N  C    1    0.53          0.0             1.         phi,psi,parm94
+CT CT C  N    1    0.100         0.0             4.         phi,psi,parm94
+CT CT C  N    1    0.07          0.0             2.         phi,psi,parm94
+H  N  C  O    1    2.50        180.0             2.         JCC,7,(1986),230
+H  N  C  O    1    2.00          0.0             1.         J.C.cistrans NMA DE
+CT S  S  CT   1    3.50          0.0             2.         JCC,7,(1986),230
+CT S  S  CT   1    0.60          0.0             3.         JCC,7,(1986),230
+OH P  OS CT   1    0.25          0.0             3.         JCC,7,(1986),230
+OH P  OS CT   1    1.20          0.0             2.         gg&gt ene.631g*/mp2
+OS P  OS CT   1    0.25          0.0             3.         JCC,7,(1986),230
+OS P  OS CT   1    1.20          0.0             2.         gg&gt ene.631g*/mp2
+H1 CT C  O    1    0.80          0.0             1.         Junmei et al, 1999
+H1 CT C  O    1    0.08        180.0             3.         Junmei et al, 1999
+HC CT C  O    1    0.80          0.0             1.         Junmei et al, 1999
+HC CT C  O    1    0.08        180.0             3.         Junmei et al, 1999
+HC CT C  O    1    0.00          0.0             2.         Explicit of wild card X C CT X
+HC CT CT HC   1    0.15          0.0             3.         Junmei et al, 1999
+HC CT CT CT   1    0.16          0.0             3.         Junmei et al, 1999
+HC CT CM CM   1    0.38        180.0             3.         Junmei et al, 1999
+HC CT CM CM   1    1.15          0.0             1.         Junmei et al, 1999
+HO OH CT CT   1    0.16          0.0             3.         Junmei et al, 1999
+HO OH CT CT   1    0.25          0.0             1.         Junmei et al, 1999
+HO OH C  O    1    2.30        180.0             2.         Junmei et al, 1999
+HO OH C  O    1    1.90          0.0             1.         Junmei et al, 1999
+CM CM C  O    1    2.175       180.0             2.         Junmei et al, 1999
+CM CM C  O    1    0.30          0.0             3.         Junmei et al, 1999
+CT CM CM CT   1    6.65        180.0             2.         Junmei et al, 1999
+CT CM CM CT   1    1.90        180.0             1.         Junmei et al, 1999
+CT CT CT CT   1    0.18          0.0             3.         Junmei et al, 1999
+CT CT CT CT   1    0.25        180.0             2.         Junmei et al, 1999
+CT CT CT CT   1    0.20        180.0             1.         Junmei et al, 1999
+CT CT NT CT   1    0.30          0.0             3.         Junmei et al, 1999
+CT CT NT CT   1    0.48        180.0             2.         Junmei et al, 1999
+CT CT OS CT   1    0.383         0.0             3.         
+CT CT OS CT   1    0.1         180.0             2.         
+CT CT OS C    1    0.383         0.0             3.         Junmei et al, 1999
+CT CT OS C    1    0.80        180.0             1.         Junmei et al, 1999
+CT OS CT OS   1    0.10          0.0             3.         Junmei et al, 1999
+CT OS CT OS   1    0.85        180.0             2.         Junmei et al, 1999
+CT OS CT OS   1    1.35        180.0             1.         Junmei et al, 1999
+CT OS CT N*   1    0.383         0.0             3.         parm98.dat, TC,PC,PAK
+CT OS CT N*   1    0.65          0.0             2.         Piotr et al.
+CT CZ CZ HZ   1    0.00          0.0             1.         Junmei et al, 1999
+O  C  OS CT   1    2.70        180.0             2.         Junmei et al, 1999
+O  C  OS CT   1    1.40        180.0             1.         Junmei et al, 1999
+OS CT N* CK   1    0.00        000.0             2.         parm98, TC,PC,PAK
+OS CT N* CK   1    2.50          0.0             1.         parm98, TC,PC,PAK
+OS CT N* CM   1    0.00        000.0             2.         parm98, TC,PC,PAK
+OS CT N* CM   1    2.50          0.0             1.         parm98, TC,PC,PAK
+OS CT CT OS   1    0.144         0.0             3.         parm98, TC,PC,PAK
+OS CT CT OS   1    1.175         0.0             2.         Piotr et al.     
+OS CT CT OH   1    0.144         0.0             3.         parm98, TC,PC,PAK
+OS CT CT OH   1    1.175         0.0             2.         parm98, TC,PC,PAK
+OH CT CT OH   1    0.144         0.0             3.         parm98, TC,PC,PAK
+OH CT CT OH   1    1.175         0.0             2.         parm98, TC,PC,PAK 
+H1 CT CT OS   1    0.000         0.0             3.         JCC,7,(1986),230
+H1 CT CT OS   1    0.25          0.0             1.         Junmei et al, 1999
+H1 CT CT OH   1    0.000         0.0             3.         JCC,7,(1986),230
+H1 CT CT OH   1    0.25          0.0             1.         Junmei et al, 1999
+HC CT CT OS   1    0.000         0.0             3.         JCC,7,(1986),230
+HC CT CT OS   1    0.25          0.0             1.         Junmei et al, 1999
+HC CT CT OH   1    0.000         0.0             3.         JCC,7,(1986),230
+HC CT CT OH   1    0.25          0.0             1.         Junmei et al, 1999
+H1 CT NT LP   1    0.000         0.000           3.000      
+CT CT NT LP   1    0.000         0.000           3.000      
+CT C  N  LP   1    0.000       180.000           2.000      
+O  C  N  LP   1    0.000       180.000           2.000      
+H1 CT OH LP   1    0.000         0.000           3.000      
+CT CT OH LP   1    0.000         0.000           3.000      
+H1 CT OS LP   1    0.000         0.000           3.000      
+H2 CT OS LP   1    0.000         0.000           3.000      
+CT CT OS LP   1    0.000         0.000           3.000      
+CM CM OS LP   1    0.000       180.000           2.000      
+HA CM OS LP   1    0.000       180.000           2.000      
+H4 CM OS LP   1    0.000       180.000           2.000      
+C  CB C* CM   1    6.650       180.000           2.000      same as X  c2 c2 X
+C  CB C* CT   1    6.650       180.000           2.000      same as X  c2 c2 X
+C  CB C* CZ   1    6.650       180.000           2.000      same as X  c2 c2 X
+C  CB CB NA   1    6.650       180.000           2.000      same as X  c2 c2 X
+C  CB CB NC   1    6.650       180.000           2.000      same as X  c2 c2 X
+C  CB N* CT   1    0.625       180.000           2.000      same as X  c2 na X
+C  CM CM H4   1    6.650       180.000           2.000      same as X  c2 c2 X
+C  CM CM N*   1    6.650       180.000           2.000      same as X  c2 c2 X
+C  CM CM N*   1    6.650       180.000           2.000      same as X  c2 c2 X
+C  CM CM NA   1    6.650       180.000           2.000      same as X  c2 c2 X
+C  CM CM NA   1    6.650       180.000           2.000      same as X  c2 c2 X
+C  CM CM NA   1    6.650       180.000           2.000      same as X  c2 c2 X
+C  CM CT C    1    0.300         0.000           3.000      same as X  c2 c3 X 
+C  CM CT H1   1    0.156         0.000           3.000      same as X  c2 c3 X 
+C  CM CT HC   1    0.156         0.000           3.000      same as X  c2 c3 X 
+C  CM CT NT   1    0.300         0.000           3.000      same as X  c2 c3 X 
+C  CM CT OH   1    0.000         0.000           2.000      same as X  c2 c3 X
+C  CM OH HO   1    1.050       180.000           2.000      same as X  c2 oh X
+C  CM OS CT   1    1.050       180.000           2.000      same as X  c2 os X
+C  CT CT C    1    0.156         0.000           3.000      same as X  c3 c3 X
+C  CT CT CT   1    0.156         0.000           3.000      same as X  c3 c3 X
+C  CT CT H1   1    0.156         0.000           3.000      same as X  c3 c3 X
+C  CT CT HC   1    0.156         0.000           3.000      same as X  c3 c3 X
+C  CT CT OH   1    0.156         0.000           3.000      same as X  c3 c3 X
+C  CT N  C    1    0.300         0.000           3.000      same as X  c3 n  X 
+C  CT N  H    1    0.156         0.000           3.000      same as X  c3 n  X 
+C  CT NT H    1    0.300         0.000           3.000      same as X  c3 n3 X
+C  CT OH HO   1    0.167         0.000           3.000      same as X  c3 oh X
+C  N  C  CT   1    2.500       180.000           2.000      same as X  c  n  X
+C  N  C  O    1    2.500       180.000           2.000      same as X  c  n  X
+C  N  CT C    1    0.000         0.000           2.000      same as X  c3 n  X
+C  N  CT CT   1    0.000         0.000           2.000      same as X  c3 n  X
+C  N  CT H1   1    0.156         0.000           3.000      same as X  c3 n  X 
+C  N  CT H2   1    0.156         0.000           3.000      same as X  c3 n  X 
+C  N* C  CM   1    1.450       180.000           2.000      same as X  c  na X
+C  N* C  N*   1    0.350       180.000           4.000      same as X  c  na X
+C  N* C  NA   1    0.350       180.000           4.000      same as X  c  na X
+C  N* C  O    1    1.450       180.000           2.000      same as X  c  na X
+C  N* CA CC   1    0.625       180.000           2.000      same as X  c2 na X
+C  N* CA CM   1    0.625       180.000           2.000      same as X  c2 na X
+C  N* CA CT   1    0.625       180.000           2.000      same as X  c2 na X
+C  N* CA H4   1    0.625       180.000           2.000      same as X  c2 na X
+C  N* CA H5   1    0.625       180.000           2.000      same as X  c2 na X
+C  N* CA N2   1    0.625       180.000           2.000      same as X  c2 na X
+C  N* CA NC   1    0.625       180.000           2.000      same as X  c2 na X
+C  N* CB N2   1    2.000       180.000           2.000      same as X  c2 na X 
+C  N* CB NA   1    0.625       180.000           2.000      same as X  c2 na X
+C  N* CB NB   1    2.000       180.000           2.000      same as X  c2 na X 
+C  N* CM CM   1    0.625       180.000           2.000      same as X  c2 na X
+C  N* CM H4   1    0.625       180.000           2.000      same as X  c2 na X
+C  N* CM N2   1    0.625       180.000           2.000      same as X  c2 na X
+C  N* CT CT   1    0.000         0.000           2.000      same as X  c3 na X
+C  N* CT H1   1    0.000         0.000           2.000      same as X  c3 na X
+C  N* CT H2   1    0.156         0.000           3.000      same as X  c3 na X 
+C  N* CZ CM   1    0.000       180.000           2.000      same as X  c1 na X
+C  NA C  CM   1    2.000       180.000           2.000      same as X  c  na X 
+C  NA C  N*   1    0.350       180.000           4.000      same as X  c  na X
+C  NA C  NA   1    2.000       180.000           2.000      same as X  c  na X 
+C  NA C  O    1    2.000       180.000           2.000      same as X  c  na X 
+C  NA CA H5   1    0.625       180.000           2.000      same as X  c2 na X
+C  NA CA N2   1    0.625       180.000           2.000      same as X  c2 na X
+C  NA CA NC   1    0.625       180.000           2.000      same as X  c2 na X
+C  NA CM CM   1    0.625       180.000           2.000      same as X  c2 na X
+C  NA CM H4   1    0.625       180.000           2.000      same as X  c2 na X
+C  NA CM SS   1    0.625       180.000           2.000      same as X  c2 na X
+C  NC CA CM   1    4.150       180.000           2.000      same as X  c2 n2 X
+C  NC CA N*   1    4.150       180.000           2.000      same as X  c2 n2 X
+C  NC CA N2   1    4.150       180.000           2.000      same as X  c2 n2 X
+C  OS CT H1   1    0.383         0.000           3.000      same as X  c3 os X
+C* CA N* CB   1    0.625       180.000           2.000      same as X  c2 na X
+C* CB C  NA   1    2.175       180.000           2.000      same as X  c  c2 X
+C* CB C  O    1    2.175       180.000           2.000      same as X  c  c2 X
+C* CB CB NC   1    4.000       180.000           2.000      same as X  cc cc X
+C* CM N  H    1    0.650       180.000           2.000      same as X  c2 n  X
+C* CM NT H    1    0.300       180.000           2.000      same as X  c2 n3 X
+C* CT NT CT   1    0.300         0.000           3.000      same as X  c3 n3 X
+C* CT NT H    1    0.300         0.000           3.000      same as X  c3 n3 X
+CA C* CB C    1    6.650       180.000           2.000      same as X  c2 c2 X
+CA C* CB CB   1    4.000       180.000           2.000      same as X  cc cc X
+CA C* CM N    1    6.650       180.000           2.000      same as X  c2 c2 X
+CA C* CM NT   1    6.650       180.000           2.000      same as X  c2 c2 X
+CA C* CT H1   1    0.000         0.000           2.000      same as X  c2 c3 X
+CA C* CT NT   1    0.000         0.000           2.000      same as X  c2 c3 X
+CA C* CZ NY   1    0.000       180.000           2.000      same as X  c1 c2 X
+CA CB CB NC   1    4.000       180.000           2.000      same as X  cc cc X
+CA CM C  H4   1    2.175       180.000           2.000      same as X  c  c2 X
+CA CM C  O    1    2.175       180.000           2.000      same as X  c  c2 X
+CA CM CM H4   1    4.000       180.000           2.000      same as X  cc cc X
+CA CM CT H1   1    0.000         0.000           2.000      same as X  c2 c3 X
+CA CM CT HC   1    0.156         0.000           3.000      same as X  c2 c3 X 
+CA CM CT OH   1    0.000         0.000           2.000      same as X  c2 c3 X
+CA CT CT C    1    0.156         0.000           3.000      same as X  c3 c3 X
+CA CT CT CT   1    0.156         0.000           3.000      same as X  c3 c3 X
+CA CT CT H1   1    0.156         0.000           3.000      same as X  c3 c3 X
+CA CT CT HC   1    0.156         0.000           3.000      same as X  c3 c3 X
+CA CT CT OH   1    0.156         0.000           3.000      same as X  c3 c3 X
+CA N* C  CT   1    0.350       180.000           4.000      same as X  c  na X
+CA N* C  N    1    1.450       180.000           2.000      same as X  c  na X
+CA N* C  O    1    0.350       180.000           4.000      same as X  c  na X
+CA N* CB CB   1    0.625       180.000           2.000      same as X  c2 na X
+CA N* CB N2   1    0.625       180.000           2.000      same as X  c2 na X
+CA N* CB NA   1    0.625       180.000           2.000      same as X  c2 na X
+CA N* CB NC   1    0.625       180.000           2.000      same as X  c2 na X
+CA N* CM CM   1    0.625       180.000           2.000      same as X  c2 na X
+CA N* CM H4   1    0.625       180.000           2.000      same as X  c2 na X
+CA N* CT H1   1    0.000         0.000           2.000      same as X  c3 na X
+CA N* CT H2   1    0.000         0.000           2.000      same as X  c3 na X
+CA N* CT H2   1    0.156         0.000           3.000      same as X  c3 na X 
+CA N* CZ CM   1    0.000       180.000           2.000      same as X  c1 na X
+CA N2 CM CM   1    1.050       180.000           2.000      same as X  cc nh X
+CA N2 CM CT   1    0.300       180.000           2.000      same as X  c2 n3 X
+CA N2 CM CZ   1    0.300       180.000           2.000      same as X  c2 n3 X
+CA N2 CM H4   1    1.050       180.000           2.000      same as X  cc nh X
+CA N2 CT CM   1    0.300         0.000           3.000      same as X  c3 n3 X
+CA N2 CT H1   1    0.300         0.000           3.000      same as X  c3 n3 X
+CA N2 CT H2   1    0.300         0.000           3.000      same as X  c3 n3 X
+CA NA C  CM   1    2.000       180.000           2.000      same as X  c  na X 
+CA NA C  O    1    2.000       180.000           2.000      same as X  c  na X 
+CA NC CA CM   1    4.800       180.000           2.000      same as X  ca nc X
+CA NC CA N2   1    4.800       180.000           2.000      same as X  ca nc X
+CA NC CM CM   1    4.750       180.000           2.000      same as X  cc nc X
+CA NC CM N2   1    4.750       180.000           2.000      same as X  cc nc X
+CA NC CQ CT   1    4.150       180.000           2.000      same as X  c2 n2 X
+CA NC CQ H5   1    4.750       180.000           2.000      same as X  cc nc X
+CA NC CQ NC   1    4.750       180.000           2.000      same as X  cc nc X
+CA NC CQ S    1    4.150       180.000           2.000      same as X  c2 n2 X
+CB C  N* CA   1    2.000       180.000           2.000      same as X  c  na X 
+CB C  N* CB   1    2.000       180.000           2.000      same as X  c  na X  
+CB C  N* CT   1    0.350       180.000           4.000      same as X  c  na X
+CB C  N* CZ   1    1.450       180.000           2.000      same as X  c  na X
+CB C  NA CA   1    2.000       180.000           2.000      same as X  c  na X 
+CB C  NA H    1    2.000       180.000           2.000      same as X  c  na X 
+CB C* CA H4   1    4.000       180.000           2.000      same as X  cc cc X
+CB C* CM N    1    6.650       180.000           2.000      same as X  c2 c2 X
+CB C* CM NT   1    6.650       180.000           2.000      same as X  c2 c2 X
+CB C* CT H1   1    0.000         0.000           2.000      same as X  c2 c3 X
+CB C* CT NT   1    0.000         0.000           2.000      same as X  c2 c3 X
+CB C* CZ NY   1    0.000       180.000           2.000      same as X  c1 c2 X
+CB CA N* C    1    0.625       180.000           2.000      same as X  c2 na X
+CB CA N* CT   1    0.625       180.000           2.000      same as X  c2 na X
+CB CA N* H    1    0.625       180.000           2.000      same as X  c2 na X
+CB CA N2 CT   1    0.300       180.000           2.000      same as X  c2 n3 X
+CB CA N2 H    1    0.300       180.000           2.000      same as X  c2 n3 X
+CB CA NC CQ   1    4.800       180.000           2.000      same as X  ca nc X
+CB CB C* CM   1    4.000       180.000           2.000      same as X  cc cc X
+CB CB C* CT   1    6.650       180.000           2.000      same as X  c2 c2 X
+CB CB N2 CA   1    1.050       180.000           2.000      same as X  cc nh X
+CB CB N2 CB   1    2.000       180.000           2.000      same as X  cc nh X 
+CB CB NA CB   1    0.625       180.000           2.000      same as X  c2 na X
+CB CB NA H    1    0.625       180.000           2.000      same as X  c2 na X
+CB CB NC CA   1    4.750       180.000           2.000      same as X  cc nc X
+CB CB NC CQ   1    4.750       180.000           2.000      same as X  cc nc X
+CB CM N2 CA   1    1.050       180.000           2.000      same as X  cc nh X
+CB CM N2 CT   1    0.300       180.000           2.000      same as X  c2 n3 X
+CB CM N2 H    1    0.300       180.000           2.000      same as X  c2 n3 X
+CB N* CA CC   1    2.000       180.000           2.000      same as X  c2 na X 
+CB N* CA CT   1    0.625       180.000           2.000      same as X  c2 na X
+CB N* CA H4   1    0.625       180.000           2.000      same as X  c2 na X
+CB N* CK H5   1    0.625       180.000           2.000      same as X  c2 na X
+CB N* CT H1   1    0.156         0.000           3.000      same as X  c3 na X 
+CB N* CT H2   1    0.156         0.000           3.000      same as X  c3 na X 
+CB N2 CK H5   1    2.000       180.000           2.000      same as X  cc nh X 
+CB N2 CR H5   1    1.050       180.000           2.000      same as X  cc nh X
+CB N2 CT H1   1    0.156         0.000           3.000      same as X  c3 n3 X 
+CB N2 CT H2   1    0.300         0.000           3.000      same as X  c3 n3 X
+CB NB CC CA   1    4.750       180.000           2.000      same as X  cc nc X
+CB NB CC CT   1    4.150       180.000           2.000      same as X  c2 n2 X
+CB NB CK H5   1    4.750       180.000           2.000      same as X  cc nc X
+CB NC CA H5   1    4.800       180.000           2.000      same as X  ca nc X
+CB NC CQ CT   1    4.150       180.000           2.000      same as X  c2 n2 X
+CB NC CQ H5   1    4.750       180.000           2.000      same as X  cc nc X
+CB NC CQ S    1    4.150       180.000           2.000      same as X  c2 n2 X
+CC CA CT CT   1    0.300         0.000           3.000      same as X  c2 c3 X 
+CC CA CT HC   1    0.156         0.000           3.000      same as X  c2 c3 X 
+CC NB CB N2   1    4.750       180.000           2.000      same as X  cc nc X
+CC NB CB NA   1    4.150       180.000           2.000      same as X  c2 n2 X
+CK N* CB CB   1    0.625       180.000           2.000      same as X  c2 na X
+CK N* CB NC   1    0.625       180.000           2.000      same as X  c2 na X
+CK N* CT H2   1    0.156         0.000           3.000      same as X  c3 na X 
+CK N2 CB CB   1    2.000       180.000           2.000      same as X  cc nh X 
+CK N2 CB N2   1    2.000       180.000           2.000      same as X  cc nh X 
+CK N2 CB NA   1    0.300       180.000           2.000      same as X  c2 n3 X
+CK N2 CT H2   1    0.300         0.000           3.000      same as X  c3 n3 X
+CK NB CB C    1    4.150       180.000           2.000      same as X  c2 n2 X
+CK NB CB CA   1    4.750       180.000           2.000      same as X  cc nc X
+CK NB CB CB   1    4.750       180.000           2.000      same as X  cc nc X
+CK NB CB CM   1    4.750       180.000           2.000      same as X  cc nc X
+CM C  N* C    1    0.350       180.000           4.000      same as X  c  na X
+CM C  N* CT   1    1.450       180.000           2.000      same as X  c  na X
+CM C  NA C    1    2.000       180.000           2.000      same as X  c  na X 
+CM C  NA H    1    2.000       180.000           2.000      same as X  c  na X 
+CM C* CA H4   1    4.000       180.000           2.000      same as X  cc cc X
+CM CB CB NC   1    4.000       180.000           2.000      same as X  cc cc X
+CM CM C  H4   1    2.175       180.000           2.000      same as X  c  c2 X
+CM CM C  O    1    2.175       180.000           2.000      same as X  c  c2 X
+CM CM CM H4   1    4.000       180.000           2.000      same as X  cc cc X
+CM CM CT C    1    0.300         0.000           3.000      same as X  c2 c3 X 
+CM CM CT H1   1    0.156         0.000           3.000      same as X  c2 c3 X 
+CM CM CT HC   1    0.300         0.000           3.000      same as X  c2 c3 X 
+CM CM CT NT   1    0.300         0.000           3.000      same as X  c2 c3 X 
+CM CM CT OH   1    0.000         0.000           2.000      same as X  c2 c3 X
+CM CM N* C    1    0.625       180.000           2.000      same as X  c2 na X
+CM CM N* CT   1    0.625       180.000           2.000      same as X  c2 na X
+CM CM NA C    1    0.625       180.000           2.000      same as X  c2 na X
+CM CM NA H    1    0.625       180.000           2.000      same as X  c2 na X
+CM CM OH HO   1    1.050       180.000           2.000      same as X  c2 oh X
+CM CM OS CT   1    1.050       180.000           2.000      same as X  c2 os X
+CM CT C  N    1    0.000       180.000           2.000      same as X  c  c3 X
+CM CT C  O    1    0.300         0.000           3.000      same as X  c  c3 X 
+CM CT C  OS   1    0.300         0.000           3.000      same as X  c  c3 X 
+CM CT CT CT   1    0.156         0.000           3.000      same as X  c3 c3 X
+CM CT CT H1   1    0.156         0.000           3.000      same as X  c3 c3 X
+CM CT NT CT   1    0.300         0.000           3.000      same as X  c3 n3 X
+CM CT NT H    1    0.300         0.000           3.000      same as X  c3 n3 X
+CM CT OH HO   1    0.167         0.000           3.000      same as X  c3 oh X
+CM N* CT H1   1    0.000         0.000           2.000      same as X  c3 na X
+CM N* CT H2   1    0.156         0.000           3.000      same as X  c3 na X 
+CM N2 CA H5   1    1.050       180.000           2.000      same as X  ca nh X
+CM N2 CA N2   1    1.050       180.000           2.000      same as X  ca nh X
+CM N2 CA NC   1    1.050       180.000           2.000      same as X  ca nh X
+CM N2 CT H1   1    0.300         0.000           3.000      same as X  c3 n3 X
+CM N2 CT H2   1    0.300         0.000           3.000      same as X  c3 n3 X
+CM OS CT C    1    0.383         0.000           3.000      same as X  c3 os X
+CM OS CT H1   1    0.383         0.000           3.000      same as X  c3 os X
+CQ S  CT H1   1    0.333         0.000           3.000      same as X  c3 ss X
+CR N* CB C    1    0.625       180.000           2.000      same as X  c2 na X
+CR N* CB CB   1    0.625       180.000           2.000      same as X  c2 na X
+CR N* CT H1   1    0.156         0.000           3.000      same as X  c3 na X 
+CR N2 CB CB   1    1.050       180.000           2.000      same as X  cc nh X
+CR N2 CB NC   1    1.050       180.000           2.000      same as X  cc nh X
+CR N2 CT H2   1    0.300         0.000           3.000      same as X  c3 n3 X
+CT C  N  H    1    2.500       180.000           2.000      same as X  c  n  X
+CT C  OH HO   1    2.300       180.000           2.000      same as X  c  oh X
+CT C  OS CT   1    2.700       180.000           2.000      same as X  c  os X
+CT C* CA H4   1    6.650       180.000           2.000      same as X  c2 c2 X
+CT CC CA CT   1    6.650       180.000           2.000      same as X  c2 c2 X
+CT CC CA H4   1    6.650       180.000           2.000      same as X  c2 c2 X
+CT CM C  N*   1    2.175       180.000           2.000      same as X  c  c2 X
+CT CM C  NA   1    2.175       180.000           2.000      same as X  c  c2 X
+CT CM C  O    1    2.175       180.000           2.000      same as X  c  c2 X
+CT CM CM CT   1    6.650       180.000           2.000      same as X  c2 c2 X
+CT CM CM H4   1    6.650       180.000           2.000      same as X  c2 c2 X
+CT CM CM HA   1    6.650       180.000           2.000      same as X  c2 c2 X
+CT CM CM N*   1    6.650       180.000           2.000      same as X  c2 c2 X
+CT CM CM NA   1    6.650       180.000           2.000      same as X  c2 c2 X
+CT CM CT H1   1    0.000         0.000           2.000      same as X  c2 c3 X
+CT CM CT HC   1    0.000         0.000           2.000      same as X  c2 c3 X
+CT CM CT OH   1    0.000         0.000           2.000      same as X  c2 c3 X
+CT CT C  O    1    0.000       180.000           2.000      same as X  c  c3 X
+CT CT C  OS   1    0.000       180.000           2.000      same as X  c  c3 X
+CT CT CM C    1    0.300         0.000           3.000      same as X  c2 c3 X 
+CT CT CM CM   1    0.300         0.000           3.000      same as X  c2 c3 X 
+CT CT CM HA   1    0.000         0.000           2.000      same as X  c2 c3 X
+CT CT CT C    1    0.156         0.000           3.000      same as X  c3 c3 X
+CT CT CT CM   1    0.156         0.000           3.000      same as X  c3 c3 X
+CT CT CT CT   1    0.156         0.000           3.000      same as X  c3 c3 X
+CT CT CT H1   1    0.156         0.000           3.000      same as X  c3 c3 X
+CT CT CT H2   1    0.156         0.000           3.000      same as X  c3 c3 X
+CT CT CT HC   1    0.156         0.000           3.000      same as X  c3 c3 X
+CT CT CT HP   1    0.156         0.000           3.000      same as X  c3 c3 X
+CT CT CT N    1    0.156         0.000           3.000      same as X  c3 c3 X
+CT CT CT N3   1    0.156         0.000           3.000      same as X  c3 c3 X
+CT CT CT NT   1    0.156         0.000           3.000      same as X  c3 c3 X
+CT CT CT O    1    0.156         0.000           3.000      same as X  c3 c3 X
+CT CT CT OH   1    0.156         0.000           3.000      same as X  c3 c3 X
+CT CT N  C    1    0.300         0.000           3.000      same as X  c3 n  X 
+CT CT N  H    1    0.156         0.000           3.000      same as X  c3 n  X 
+CT CT N* C    1    0.300         0.000           3.000      same as X  c3 na X 
+CT CT N* CA   1    0.300         0.000           3.000      same as X  c3 na X 
+CT CT N* CB   1    0.300         0.000           3.000      same as X  c3 na X 
+CT CT N* CK   1    0.300         0.000           3.000      same as X  c3 na X 
+CT CT N* CM   1    0.300         0.000           3.000      same as X  c3 na X 
+CT CT N2 CA   1    0.300         0.000           3.000      same as X  c3 n3 X
+CT CT N2 CB   1    0.300         0.000           3.000      same as X  c3 n3 X
+CT CT N2 CK   1    0.300         0.000           3.000      same as X  c3 n3 X
+CT CT N2 CM   1    0.300         0.000           3.000      same as X  c3 n3 X
+CT CT N2 CR   1    0.300         0.000           3.000      same as X  c3 n3 X
+CT CT N3 H    1    0.156         0.000           3.000      same as X  c3 n4 X
+CT CT NT H    1    0.300         0.000           3.000      same as X  c3 n3 X
+CT CT OH HO   1    0.167         0.000           3.000      same as X  c3 oh X
+CT CT OS CT   1    0.383         0.000           3.000      same as X  c3 os X
+CT CT SO O    1    0.333         0.000           3.000      same as X  c3 ss X
+CT N  C  N    1    2.500       180.000           2.000      same as X  c  n  X
+CT N  C  O    1    2.500       180.000           2.000      same as X  c  n  X
+CT N  C  OS   1    2.500       180.000           2.000      same as X  c  n  X
+CT N  CT CT   1    0.300         0.000           3.000      same as X  c3 n  X 
+CT N  CT H1   1    0.156         0.000           3.000      same as X  c3 n  X 
+CT N  CT H2   1    0.156         0.000           3.000      same as X  c3 n  X 
+CT N* C  N*   1    0.350       180.000           4.000      same as X  c  na X
+CT N* C  NA   1    2.000       180.000           2.000      same as X  c  na X 
+CT N* C  NC   1    2.000       180.000           2.000      same as X  c  na X 
+CT N* C  O    1    2.000       180.000           2.000      same as X  c  na X 
+CT N* CA C*   1    0.625       180.000           2.000      same as X  c2 na X
+CT N* CA H4   1    0.625       180.000           2.000      same as X  c2 na X
+CT N* CA NA   1    0.625       180.000           2.000      same as X  c2 na X
+CT N* CA NC   1    0.625       180.000           2.000      same as X  c2 na X
+CT N* CA SS   1    0.625       180.000           2.000      same as X  c2 na X
+CT N* CB CB   1    0.625       180.000           2.000      same as X  c2 na X
+CT N* CB NC   1    0.625       180.000           2.000      same as X  c2 na X
+CT N* CK H5   1    0.625       180.000           2.000      same as X  c2 na X
+CT N* CK NB   1    0.625       180.000           2.000      same as X  c2 na X
+CT N* CM CM   1    0.625       180.000           2.000      same as X  c2 na X
+CT N* CM H4   1    0.625       180.000           2.000      same as X  c2 na X
+CT N* CR H5   1    0.625       180.000           2.000      same as X  c2 na X
+CT N2 CA CM   1    0.300       180.000           2.000      same as X  c2 n3 X
+CT N2 CA N2   1    0.300       180.000           2.000      same as X  c2 n3 X
+CT N2 CA NC   1    0.300       180.000           2.000      same as X  c2 n3 X
+CT N2 CB CB   1    2.000       180.000           2.000      same as X  c2 n3 X  
+CT N2 CB N2   1    2.000       180.000           2.000      same as X  c2 n3 X  
+CT N2 CB NA   1    0.300       180.000           2.000      same as X  c2 n3 X
+CT N2 CB NC   1    0.300       180.000           2.000      same as X  c2 n3 X
+CT N2 CK H5   1    2.000       180.000           2.000      same as X  c2 n3 X  
+CT N2 CK NB   1    2.000       180.000           2.000      same as X  c2 n3 X 
+CT N2 CM CM   1    0.300       180.000           2.000      same as X  c2 n3 X
+CT N2 CM H4   1    0.300       180.000           2.000      same as X  c2 n3 X
+CT N2 CR H5   1    0.300       180.000           2.000      same as X  c2 n3 X
+CT N2 CR N*   1    0.300       180.000           2.000      same as X  c2 n3 X
+CT N2 CT H1   1    0.300         0.000           3.000      same as X  c3 n3 X
+CT NT CT C    1    0.300         0.000           3.000      same as X  c3 n3 X
+CT NT CT CM   1    0.300         0.000           3.000      same as X  c3 n3 X
+CT NT CT CT   1    0.300         0.000           3.000      same as X  c3 n3 X
+CT NT CT H1   1    0.300         0.000           3.000      same as X  c3 n3 X
+CT OS C  O    1    2.700       180.000           2.000      same as X  c  os X
+CT OS CT CM   1    0.383         0.000           3.000      same as X  c3 os X
+CT OS CT H1   1    0.383         0.000           3.000      same as X  c3 os X
+CT OS CT H2   1    0.383         0.000           3.000      same as X  c3 os X
+CT OS CT N    1    0.383         0.000           3.000      same as X  c3 os X
+CT OS CT N*   1    0.383         0.000           3.000      same as X  c3 os X
+CT OS CT N2   1    0.383         0.000           3.000      same as X  c3 os X
+CT OS CT OS   1    0.383         0.000           3.000      same as X  c3 os X
+CT OS P  OH   1    1.050       180.000           2.000      same as X  os p4 X
+CZ C* CA H4   1    6.650       180.000           2.000      same as X  c2 c2 X
+CZ CM CT HC   1    0.000         0.000           2.000      same as X  c2 c3 X
+H  N  C  O    1    2.500       180.000           2.000      same as X  c  n  X
+H  N  CT C    1    0.000         0.000           2.000      same as X  c3 n  X
+H  N  CT CT   1    0.000         0.000           2.000      same as X  c3 n  X
+H  N  CT H1   1    0.156         0.000           3.000      same as X  c3 n  X 
+H  N* C  CT   1    0.350       180.000           4.000      same as X  c  na X
+H  N* C  N    1    1.450       180.000           2.000      same as X  c  na X
+H  N* C  O    1    0.350       180.000           4.000      same as X  c  na X
+H  N* CA CM   1    0.625       180.000           2.000      same as X  c2 na X
+H  N* CA NC   1    0.625       180.000           2.000      same as X  c2 na X
+H  N2 CA CM   1    0.300       180.000           2.000      same as X  c2 n3 X
+H  N2 CA N2   1    0.300       180.000           2.000      same as X  c2 n3 X
+H  N2 CA NC   1    0.300       180.000           2.000      same as X  c2 n3 X
+H  N2 CM CM   1    0.300       180.000           2.000      same as X  c2 n3 X
+H  N2 CM CT   1    0.300       180.000           2.000      same as X  c2 n3 X
+H  N2 CM CZ   1    0.300       180.000           2.000      same as X  c2 n3 X
+H  N2 CM N2   1    0.300       180.000           2.000      same as X  c2 n3 X
+H  N2 CT CM   1    0.300         0.000           3.000      same as X  c3 n3 X
+H  N2 CT CT   1    0.300         0.000           3.000      same as X  c3 n3 X
+H  N2 CT H1   1    0.300         0.000           3.000      same as X  c3 n3 X
+H  N3 CT C    1    0.156         0.000           3.000      same as X  c3 n4 X
+H  NT CM N    1    0.300       180.000           2.000      same as X  c2 n3 X
+H  NT CT C    1    0.300         0.000           3.000      same as X  c3 n3 X
+H  NT CT H1   1    0.300         0.000           3.000      same as X  c3 n3 X
+H1 CT C  O    1    0.156       180.000           3.000      same as X  c  c3 X 
+H1 CT C  OS   1    0.000       180.000           2.000      same as X  c  c3 X
+H1 CT CM CM   1    0.000         0.000           2.000      same as X  c2 c3 X
+H1 CT CM HA   1    0.000         0.000           2.000      same as X  c2 c3 X
+H1 CT CT C    1    0.156         0.000           3.000      same as X  c3 c3 X
+H1 CT CT CM   1    0.156         0.000           3.000      same as X  c3 c3 X
+H1 CT CT H1   1    0.156         0.000           3.000      same as X  c3 c3 X
+H1 CT CT H2   1    0.156         0.000           3.000      same as X  c3 c3 X
+H1 CT CT HC   1    0.156         0.000           3.000      same as X  c3 c3 X
+H1 CT CT N    1    0.156         0.000           3.000      same as X  c3 c3 X
+H1 CT CT N*   1    0.156         0.000           3.000      same as X  c3 c3 X
+H1 CT CT N2   1    0.156         0.000           3.000      same as X  c3 c3 X
+H1 CT CT O    1    0.156         0.000           3.000      same as X  c3 c3 X
+H1 CT N  H    1    0.000         0.000           2.000      same as X  c3 n  X
+H1 CT NT H    1    0.300         0.000           3.000      same as X  c3 n3 X
+H1 CT SO O    1    0.333         0.000           3.000      same as X  c3 ss X
+H2 CT CT CT   1    0.156         0.000           3.000      same as X  c3 c3 X
+H4 CM CM C    1    6.650       180.000           2.000      same as X  c2 c2 X
+H4 CM CM CT   1    6.650       180.000           2.000      same as X  c2 c2 X
+H4 CM CM HA   1    6.650       180.000           2.000      same as X  c2 c2 X
+H4 CM CM OH   1    6.650       180.000           2.000      same as X  c2 c2 X
+H4 CM CM OS   1    6.650       180.000           2.000      same as X  c2 c2 X
+H4 CM N* CT   1    0.625       180.000           2.000      same as X  c2 na X
+H4 CM NA H    1    0.625       180.000           2.000      same as X  c2 na X
+H5 CA N* CT   1    0.625       180.000           2.000      same as X  c2 na X
+H5 CA N2 CT   1    0.300       180.000           2.000      same as X  c2 n3 X
+H5 CA NA H    1    0.625       180.000           2.000      same as X  c2 na X
+HA CM CM CT   1    6.650       180.000           2.000      same as X  c2 c2 X
+HA CM CM HA   1    6.650       180.000           2.000      same as X  c2 c2 X
+HA CM CT H1   1    0.000         0.000           2.000      same as X  c2 c3 X
+HC CT C  N    1    0.000       180.000           2.000      same as X  c  c3 X
+HC CT C  O    1    0.000       180.000           2.000      same as X  c  c3 X
+HC CT C  OS   1    0.000       180.000           2.000      same as X  c  c3 X
+HC CT CC CA   1    0.156         0.000           3.000      same as X  c2 c3 X 
+HC CT CM CT   1    0.000         0.000           2.000      same as X  c2 c3 X
+HC CT CT C    1    0.156         0.000           3.000      same as X  c3 c3 X
+HC CT CT H1   1    0.156         0.000           3.000      same as X  c3 c3 X
+HC CT CT HC   1    0.156         0.000           3.000      same as X  c3 c3 X
+HC CT CT NT   1    0.156         0.000           3.000      same as X  c3 c3 X
+HC CT CT OH   1    0.156         0.000           3.000      same as X  c3 c3 X
+HO OH C  O    1    2.300       180.000           2.000      same as X  c  oh X
+HO OH CT C    1    0.167         0.000           3.000      same as X  c3 oh X
+HO OH CT CM   1    0.167         0.000           3.000      same as X  c3 oh X
+HO OH CT H1   1    0.167         0.000           3.000      same as X  c3 oh X
+HO OH P  O2   1    0.700         0.000           1.000      same as X  oh p4 X
+HP CT C  O    1    0.000       180.000           2.000      same as X  c  c3 X
+HP CT CT HC   1    0.156         0.000           3.000      same as X  c3 c3 X
+HP CT N3 H    1    0.156         0.000           3.000      same as X  c3 n4 X
+N  C  CT CT   1    0.300         0.000           3.000      same as X  c  c3 X 
+N  C  CT HC   1    0.156         0.000           3.000      same as X  c  c3 X 
+N  C  N  C    1    2.500       180.000           2.000      same as X  c  n  X
+N  C  N  H    1    2.500       180.000           2.000      same as X  c  n  X
+N  C  N* CT   1    0.350       180.000           4.000      same as X  c  na X
+N  C  OS CT   1    2.700       180.000           2.000      same as X  c  os X
+N  CT C  O    1    0.000       180.000           2.000      same as X  c  c3 X
+N  CT C  O    1    0.000       180.000           2.000      same as X  c  c3 X
+N  CT C  O    1    0.000       180.000           2.000      same as X  c  c3 X
+N  CT C  OH   1    0.000       180.000           2.000      same as X  c  c3 X
+N  CT CT C    1    0.156         0.000           3.000      same as X  c3 c3 X
+N  CT CT CT   1    0.156         0.000           3.000      same as X  c3 c3 X
+N  CT CT H1   1    0.156         0.000           3.000      same as X  c3 c3 X
+N  CT CT HC   1    0.156         0.000           3.000      same as X  c3 c3 X
+N  CT CT OH   1    0.156         0.000           3.000      same as X  c3 c3 X
+N* C  CB CB   1    2.175       180.000           2.000      same as X  c  c2 X
+N* C  CM CM   1    2.175       180.000           2.000      same as X  c  c2 X
+N* C  CM HA   1    2.175       180.000           2.000      same as X  c  c2 X
+N* C  CT HC   1    0.000       180.000           2.000      same as X  c  c3 X
+N* C  N  CT   1    2.500       180.000           2.000      same as X  c  n  X
+N* C  N  H    1    2.500       180.000           2.000      same as X  c  n  X
+N* C  N* C    1    1.450       180.000           2.000      same as X  c  na X
+N* C  N* CM   1    0.350       180.000           4.000      same as X  c  na X
+N* C  N* CT   1    1.450       180.000           2.000      same as X  c  na X
+N* C  NA C    1    2.000       180.000           2.000      same as X  c  na X 
+N* C  NA CM   1    2.000       180.000           2.000      same as X  c  na X 
+N* C  NA H    1    2.000       180.000           2.000      same as X  c  na X 
+N* C  NC CA   1    4.150       180.000           2.000      same as X  c  n2 X
+N* CA C* CB   1    6.650       180.000           2.000      same as X  c2 c2 X
+N* CA C* CM   1    6.650       180.000           2.000      same as X  c2 c2 X
+N* CA C* CT   1    6.650       180.000           2.000      same as X  c2 c2 X
+N* CA C* CZ   1    6.650       180.000           2.000      same as X  c2 c2 X
+N* CA CB CB   1    6.650       180.000           2.000      same as X  c2 c2 X
+N* CA CC CT   1    6.650       180.000           2.000      same as X  c2 c2 X
+N* CA CC NB   1    6.650       180.000           2.000      same as X  c2 c2 X
+N* CA CM CM   1    6.650       180.000           2.000      same as X  c2 c2 X
+N* CA CM HA   1    6.650       180.000           2.000      same as X  c2 c2 X
+N* CA CT CT   1    0.300         0.000           3.000      same as X  c2 c3 X 
+N* CA CT HC   1    0.300         0.000           3.000      same as X  c2 c3 X 
+N* CA N2 CB   1    0.300       180.000           2.000      same as X  c2 n3 X
+N* CA N2 CM   1    0.300       180.000           2.000      same as X  c2 n3 X
+N* CA N2 CT   1    0.300       180.000           2.000      same as X  c2 n3 X
+N* CA N2 H    1    0.300       180.000           2.000      same as X  c2 n3 X
+N* CA NA C    1    0.625       180.000           2.000      same as X  c2 na X
+N* CA NA H    1    0.625       180.000           2.000      same as X  c2 na X
+N* CA NC CA   1    4.150       180.000           2.000      same as X  c2 n2 X
+N* CA NC CB   1    4.150       180.000           2.000      same as X  c2 n2 X
+N* CA NC CQ   1    4.150       180.000           2.000      same as X  c2 n2 X
+N* CB C  NA   1    2.175       180.000           2.000      same as X  c  c2 X
+N* CB C  O    1    2.175       180.000           2.000      same as X  c  c2 X
+N* CB CB C    1    6.650       180.000           2.000      same as X  c2 c2 X
+N* CB CB C*   1    6.650       180.000           2.000      same as X  c2 c2 X
+N* CB CB CA   1    6.650       180.000           2.000      same as X  c2 c2 X
+N* CB CB CM   1    6.650       180.000           2.000      same as X  c2 c2 X
+N* CB CB NB   1    6.650       180.000           2.000      same as X  c2 c2 X
+N* CB N2 CB   1    2.000       180.000           2.000      same as X  c2 n3 X 
+N* CB N2 CT   1    2.000       180.000           2.000      same as X  c2 n3 X 
+N* CB NA CB   1    0.625       180.000           2.000      same as X  c2 na X
+N* CB NA H    1    0.625       180.000           2.000      same as X  c2 na X
+N* CB NB CC   1    4.150       180.000           2.000      same as X  c2 n2 X
+N* CB NC CA   1    4.150       180.000           2.000      same as X  c2 n2 X
+N* CB NC CQ   1    4.150       180.000           2.000      same as X  c2 n2 X
+N* CK NB CB   1    4.150       180.000           2.000      same as X  c2 n2 X
+N* CM CM C    1    6.650       180.000           2.000      same as X  c2 c2 X
+N* CM CM CA   1    6.650       180.000           2.000      same as X  c2 c2 X
+N* CM CM CM   1    6.650       180.000           2.000      same as X  c2 c2 X
+N* CM CM CT   1    6.650       180.000           2.000      same as X  c2 c2 X
+N* CM CM HA   1    6.650       180.000           2.000      same as X  c2 c2 X
+N* CM CM OH   1    6.650       180.000           2.000      same as X  c2 c2 X
+N* CM CM OS   1    6.650       180.000           2.000      same as X  c2 c2 X
+N* CM N2 H    1    0.300       180.000           2.000      same as X  c2 n3 X
+N* CR N2 CB   1    0.300       180.000           2.000      same as X  c2 n3 X
+N* CT CT CT   1    0.156         0.000           3.000      same as X  c3 c3 X
+N* CT CT HC   1    0.156         0.000           3.000      same as X  c3 c3 X
+N* CZ CM CT   1    0.000       180.000           2.000      same as X  c1 c2 X
+N* CZ CM N2   1    0.000       180.000           2.000      same as X  c1 c2 X
+N2 CA CB CB   1    4.000       180.000           2.000      same as X  cc cc X
+N2 CA CM C    1    6.650       180.000           2.000      same as X  c2 c2 X
+N2 CA CM CM   1    4.000       180.000           2.000      same as X  cc cc X
+N2 CA CM CT   1    6.650       180.000           2.000      same as X  c2 c2 X
+N2 CA CM HA   1    6.650       180.000           2.000      same as X  c2 c2 X
+N2 CA N* CT   1    0.625       180.000           2.000      same as X  c2 na X
+N2 CA N* CZ   1    0.625       180.000           2.000      same as X  c2 na X
+N2 CA N2 CB   1    1.050       180.000           2.000      same as X  ca nh X
+N2 CA N2 CT   1    0.300       180.000           2.000      same as X  c2 n3 X
+N2 CA N2 H    1    0.300       180.000           2.000      same as X  c2 n3 X
+N2 CA NA H    1    0.625       180.000           2.000      same as X  c2 na X
+N2 CA NC CB   1    4.800       180.000           2.000      same as X  ca nc X
+N2 CA NC CM   1    4.800       180.000           2.000      same as X  ca nc X
+N2 CA NC CQ   1    4.800       180.000           2.000      same as X  ca nc X
+N2 CB CB C    1    6.650       180.000           2.000      same as X  c2 c2 X
+N2 CB CB N*   1    6.650       180.000           2.000      same as X  c2 c2 X
+N2 CB CB NB   1    4.000       180.000           2.000      same as X  cc cc X
+N2 CB N2 CA   1    1.050       180.000           2.000      same as X  cc nh X
+N2 CB N2 CB   1    2.000       180.000           2.000      same as X  cc nh X 
+N2 CB NA CB   1    0.625       180.000           2.000      same as X  c2 na X
+N2 CB NA H    1    0.625       180.000           2.000      same as X  c2 na X
+N2 CB NC CA   1    4.750       180.000           2.000      same as X  cc nc X
+N2 CB NC CA   1    4.750       180.000           2.000      same as X  cc nc X
+N2 CK NB CB   1    4.750       180.000           2.000      same as X  cc nc X
+N2 CM CB CB   1    4.000       180.000           2.000      same as X  cc cc X
+N2 CM CM CM   1    4.000       180.000           2.000      same as X  cc cc X
+N2 CM CM HA   1    6.650       180.000           2.000      same as X  c2 c2 X
+N2 CM CT HC   1    0.000         0.000           2.000      same as X  c2 c3 X
+N2 CM N* CT   1    0.625       180.000           2.000      same as X  c2 na X
+N2 CM N2 CA   1    1.050       180.000           2.000      same as X  cc nh X
+N2 CM N2 CT   1    0.300       180.000           2.000      same as X  c2 n3 X
+N2 CR N* CB   1    0.625       180.000           2.000      same as X  c2 na X
+N2 CR N* CT   1    0.625       180.000           2.000      same as X  c2 na X
+N2 CT CM CM   1    0.000         0.000           2.000      same as X  c2 c3 X
+N2 CT CM HA   1    0.000         0.000           2.000      same as X  c2 c3 X
+N2 CT CT CT   1    0.156         0.000           3.000      same as X  c3 c3 X
+N2 CT CT HC   1    0.156         0.000           3.000      same as X  c3 c3 X
+N3 CT C  O    1    0.000       180.000           2.000      same as X  c  c3 X
+N3 CT CT HC   1    0.156         0.000           3.000      same as X  c3 c3 X
+NA C  CB CB   1    2.175       180.000           2.000      same as X  c  c2 X
+NA C  CM CM   1    2.175       180.000           2.000      same as X  c  c2 X
+NA C  CM CT   1    2.175       180.000           2.000      same as X  c  c2 X
+NA C  CM HA   1    2.175       180.000           2.000      same as X  c  c2 X
+NA C  CM OH   1    2.175       180.000           2.000      same as X  c  c2 X
+NA C  CM OS   1    2.175       180.000           2.000      same as X  c  c2 X
+NA C  N* CM   1    2.000       180.000           2.000      same as X  c  na X 
+NA C  N* CT   1    0.350       180.000           4.000      same as X  c  na X
+NA C  NA CM   1    2.000       180.000           2.000      same as X  c  na X 
+NA C  NA H    1    2.000       180.000           2.000      same as X  c  na X 
+NA CA N* CM   1    0.625       180.000           2.000      same as X  c2 na X
+NA CA N2 CT   1    0.300       180.000           2.000      same as X  c2 n3 X
+NA CA N2 H    1    0.300       180.000           2.000      same as X  c2 n3 X
+NA CA NC CB   1    4.150       180.000           2.000      same as X  c2 n2 X
+NA CM CM CM   1    6.650       180.000           2.000      same as X  c2 c2 X
+NA CM CM HA   1    6.650       180.000           2.000      same as X  c2 c2 X
+NB CB C  N*   1    2.175       180.000           2.000      same as X  c  c2 X
+NB CB C  NA   1    2.175       180.000           2.000      same as X  c  c2 X
+NB CB C  O    1    2.175       180.000           2.000      same as X  c  c2 X
+NB CB CA N*   1    6.650       180.000           2.000      same as X  c2 c2 X
+NB CB CA N2   1    4.000       180.000           2.000      same as X  cc cc X
+NB CB CA NC   1    4.000       180.000           2.000      same as X  cc cc X
+NB CB CB NA   1    6.650       180.000           2.000      same as X  c2 c2 X
+NB CB CB NC   1    4.000       180.000           2.000      same as X  cc cc X
+NB CB CM N2   1    4.000       180.000           2.000      same as X  cc cc X
+NB CB N* CA   1    2.000       180.000           2.000      same as X  c2 na X 
+NB CB N2 CB   1    2.000       180.000           2.000      same as X  cc nh X 
+NB CB N2 CT   1    2.000       180.000           2.000      same as X  c2 n3 X 
+NB CB NA CB   1    0.625       180.000           2.000      same as X  c2 na X
+NB CB NA H    1    0.625       180.000           2.000      same as X  c2 na X
+NB CC CA CT   1    6.650       180.000           2.000      same as X  c2 c2 X
+NB CC CA H4   1    4.000       180.000           2.000      same as X  cc cc X
+NB CC CT HC   1    0.300         0.000           3.000      same as X  c2 c3 X 
+NB CK N* CB   1    0.625       180.000           2.000      same as X  c2 na X
+NB CK N2 CB   1    2.000       180.000           2.000      same as X  cc nh X 
+NC C  N* CM   1    2.000       180.000           2.000      same as X  c  na X 
+NC CA CB CB   1    4.000       180.000           2.000      same as X  cc cc X
+NC CA CM C    1    6.650       180.000           2.000      same as X  c2 c2 X
+NC CA CM CM   1    4.000       180.000           2.000      same as X  cc cc X
+NC CA CM CT   1    6.650       180.000           2.000      same as X  c2 c2 X
+NC CA CM HA   1    6.650       180.000           2.000      same as X  c2 c2 X
+NC CA N* C    1    0.625       180.000           2.000      same as X  c2 na X
+NC CA N* CM   1    0.625       180.000           2.000      same as X  c2 na X
+NC CA N* CT   1    0.625       180.000           2.000      same as X  c2 na X
+NC CA N* H    1    0.625       180.000           2.000      same as X  c2 na X
+NC CA N2 CM   1    1.050       180.000           2.000      same as X  ca nh X
+NC CA N2 CT   1    0.300       180.000           2.000      same as X  c2 n3 X
+NC CA N2 H    1    0.300       180.000           2.000      same as X  c2 n3 X
+NC CA NA H    1    0.625       180.000           2.000      same as X  c2 na X
+NC CM CM CM   1    4.000       180.000           2.000      same as X  cc cc X
+NC CM CM HA   1    6.650       180.000           2.000      same as X  c2 c2 X
+NC CM N2 H    1    0.300       180.000           2.000      same as X  c2 n3 X
+NC CQ CT HC   1    0.000         0.000           2.000      same as X  c2 c3 X
+NC CQ NC CB   1    4.750       180.000           2.000      same as X  cc nc X
+NC CQ S  CT   1    1.100       180.000           2.000      same as X  c2 ss X
+NT CM N  H    1    0.650       180.000           2.000      same as X  c2 n  X
+NT CT C  O    1    0.000       180.000           2.000      same as X  c  c3 X
+NT CT CM CM   1    0.000         0.000           2.000      same as X  c2 c3 X
+NT CT CM HA   1    0.000         0.000           2.000      same as X  c2 c3 X
+NT CT CT CT   1    0.156         0.000           3.000      same as X  c3 c3 X
+NT CT CT H1   1    0.156         0.000           3.000      same as X  c3 c3 X
+NT CT CT HC   1    0.156         0.000           3.000      same as X  c3 c3 X
+NT CT CT OH   1    0.156         0.000           3.000      same as X  c3 c3 X
+NT CT CT OS   1    0.156         0.000           3.000      same as X  c3 c3 X
+NT CT CT SO   1    0.156         0.000           3.000      same as X  c3 c3 X
+O  C  CB CB   1    2.175       180.000           2.000      same as X  c  c2 X
+O  C  CM CM   1    2.175       180.000           2.000      same as X  c  c2 X
+O  C  CM CT   1    2.175       180.000           2.000      same as X  c  c2 X
+O  C  CM HA   1    2.175       180.000           2.000      same as X  c  c2 X
+O  C  CM OH   1    2.175       180.000           2.000      same as X  c  c2 X
+O  C  CM OS   1    2.175       180.000           2.000      same as X  c  c2 X
+O  C  CT CT   1    0.000       180.000           2.000      same as X  c  c3 X
+O  C  CT H1   1    0.156         0.000           3.000      same as X  c  c3 X 
+O  C  CT HC   1    0.156         0.000           3.000      same as X  c  c3 X 
+O  C  CT N    1    0.300         0.000           3.000      same as X  c  c3 X 
+O  C  CT NT   1    0.000       180.000           2.000      same as X  c  c3 X
+O  C  CT OH   1    0.000       180.000           2.000      same as X  c  c3 X
+O  C  N  CT   1    2.500       180.000           2.000      same as X  c  n  X
+O  C  N  H    1    2.500       180.000           2.000      same as X  c  n  X
+O  C  N* CA   1    2.000       180.000           2.000      same as X  c  na X  
+O  C  N* CB   1    2.000       180.000           2.000      same as X  c  na X  
+O  C  N* CM   1    2.000       180.000           2.000      same as X  c  na X 
+O  C  N* CT   1    0.350       180.000           4.000      same as X  c  na X
+O  C  N* CZ   1    1.450       180.000           2.000      same as X  c  na X
+O  C  NA CA   1    2.000       180.000           2.000      same as X  c  na X 
+O  C  NA CM   1    2.000       180.000           2.000      same as X  c  na X 
+O  C  NA H    1    2.000       180.000           2.000      same as X  c  na X 
+O  C  NC CA   1    4.150       180.000           2.000      same as X  c  n2 X
+O  C  OS CT   1    2.700       180.000           2.000      same as X  c  os X
+O  P  OS CT   1    1.050       180.000           2.000      same as X  os p4 X
+O2 P  OS CT   1    1.050       180.000           2.000      same as X  os p4 X
+OH C  CT CT   1    0.000       180.000           2.000      same as X  c  c3 X
+OH C  CT H1   1    0.000       180.000           2.000      same as X  c  c3 X
+OH CT C  O    1    0.000       180.000           2.000      same as X  c  c3 X
+OH CT CM CM   1    0.000         0.000           2.000      same as X  c2 c3 X
+OH CT CM HA   1    0.000         0.000           2.000      same as X  c2 c3 X
+OH CT CT C    1    0.156         0.000           3.000      same as X  c3 c3 X
+OH CT CT CM   1    0.156         0.000           3.000      same as X  c3 c3 X
+OH CT CT H1   1    0.156         0.000           3.000      same as X  c3 c3 X
+OH CT CT H2   1    0.156         0.000           3.000      same as X  c3 c3 X
+OH CT CT HC   1    0.156         0.000           3.000      same as X  c3 c3 X
+OH CT CT N    1    0.156         0.000           3.000      same as X  c3 c3 X
+OH CT CT N*   1    0.156         0.000           3.000      same as X  c3 c3 X
+OH CT CT N2   1    0.156         0.000           3.000      same as X  c3 c3 X
+OH CT CT OH   1    0.156         0.000           3.000      same as X  c3 c3 X
+OS C  CT H1   1    0.156         0.000           3.000      same as X  c  c3 X 
+OS C  CT HC   1    0.156         0.000           3.000      same as X  c  c3 X 
+OS C  CT N    1    0.300         0.000           3.000      same as X  c  c3 X 
+OS C  CT OH   1    0.000       180.000           2.000      same as X  c  c3 X
+OS C  N  H    1    2.500       180.000           2.000      same as X  c  n  X
+OS CT C  O    1    0.300       180.000           3.000      same as X  c  c3 X 
+OS CT C  OS   1    0.000       180.000           2.000      same as X  c  c3 X
+OS CT CM C    1    0.300         0.000           3.000      same as X  c2 c3 X 
+OS CT CM CM   1    0.300         0.000           3.000      same as X  c2 c3 X 
+OS CT CT CM   1    0.156         0.000           3.000      same as X  c3 c3 X
+OS CT CT CT   1    0.156         0.000           3.000      same as X  c3 c3 X
+OS CT CT H1   1    0.156         0.000           3.000      same as X  c3 c3 X
+OS CT CT H2   1    0.156         0.000           3.000      same as X  c3 c3 X
+OS CT CT N*   1    0.156         0.000           3.000      same as X  c3 c3 X
+OS CT CT O    1    0.156         0.000           3.000      same as X  c3 c3 X
+OS CT CT OH   1    0.156         0.000           3.000      same as X  c3 c3 X
+OS CT CT OS   1    0.156         0.000           3.000      same as X  c3 c3 X
+OS CT N  C    1    0.300         0.000           3.000      same as X  c3 n  X 
+OS CT N  CT   1    0.300         0.000           3.000      same as X  c3 n  X 
+OS CT N* C    1    0.300         0.000           3.000      same as X  c3 na X 
+OS CT N* CA   1    0.300         0.000           3.000      same as X  c3 na X 
+OS CT N* CB   1    0.300         0.000           3.000      same as X  c3 na X 
+OS CT N* CK   1    0.300         0.000           3.000      same as X  c3 na X 
+OS CT N* CM   1    0.300         0.000           3.000      same as X  c3 na X 
+OS CT N2 CA   1    0.300         0.000           3.000      same as X  c3 n3 X
+OS CT N2 CB   1    0.300         0.000           3.000      same as X  c3 n3 X
+OS CT N2 CK   1    0.300         0.000           3.000      same as X  c3 n3 X
+OS CT N2 CM   1    0.300         0.000           3.000      same as X  c3 n3 X
+OS CT N2 CR   1    0.300         0.000           3.000      same as X  c3 n3 X
+OS P  OH HO   1    0.700         0.000           1.000      same as X  oh p4 X
+P  OS CT CT   1    0.383         0.000           3.000      same as X  c3 os X
+P  OS CT H1   1    0.383         0.000           3.000      same as X  c3 os X
+SO CT CT H1   1    0.156         0.000           3.000      same as X  c3 c3 X
+SS CA N* CM   1    0.625       180.000           2.000      same as X  c2 na X
+SS CA NA C    1    0.625       180.000           2.000      same as X  c2 na X
+SS CA NA H    1    0.625       180.000           2.000      same as X  c2 na X
+SS CA NC CA   1    4.150       180.000           2.000      same as X  c2 n2 X
+SS CM CM CM   1    6.650       180.000           2.000      same as X  c2 c2 X
+SS CM CM HA   1    6.650       180.000           2.000      same as X  c2 c2 X
+SS CM NA H    1    0.625       180.000           2.000      same as X  c2 na X
+X  C2 N* X    4    6.80        180.0             2.         JCC,7,(1986),230 
+X  C2 NB X    2   20.00        180.0             2.         JCC,7,(1986),230 
+X  C  C1 X    4    8.70        180.0             2.         intrpol.bsd.on C6H6 
+X  CA C1 X    4   10.20        180.0             2.         intrpol.bsd.on C6H6 
+X  C1 C1 X    4   26.60        180.0             2.         intrpol.bsd.on C6H6 
+X  C1 CT X    6    0.00          0.0             3.         JCC,7,(1986),230 
+X  C1 N* X    4    7.40        180.0             2.         JCC,7,(1986),230 
+HC CT C1 C1   1    0.38        180.0             3.         Junmei et al, 1999 
+HC CT C1 C1   1    1.15          0.0             1.         Junmei et al, 1999 
+C1 C1 C  O    1    2.175       180.0             2.         Junmei et al, 1999 
+C1 C1 C  O    1    0.30          0.0             3.         Junmei et al, 1999 
+OS CT N* C2   1    1.54499      40.5923          1.         ol6 chi ade 
+OS CT N* C2   1    1.82864     356.5233          2.         ol6 chi ade 
+OS CT N* C2   1    0.57384     179.0053          3.         ol6 chi ade 
+OS CT N* CK   1    1.18653      43.9252          1.         ol6 chi gua 
+OS CT N* CK   1    1.82910     350.8842          2.         ol6 chi gua 
+OS CT N* CK   1    0.66563     175.4175          3.         ol6 chi gua 
+OS CT N* C1   1    0.68753     111.3175          1.         ol6 chi cyt 
+OS CT N* C1   1    2.14047     360.2802          2.         ol6 chi cyt 
+OS CT N* C1   1    1.20618     170.6402          3.         ol6 chi cyt 
+OS CT N* C1   1    0.25998      94.1874          4.         ol6 chi cyt 
+OS CT N* CM   1    0.56323      94.7062          1.         ol6 chi ura,thy 
+OS CT N* CM   1    2.17812     357.8520          2.         ol6 chi ura,thy 
+OS CT N* CM   1    0.67757     178.4857          3.         ol6 chi ura,thy 
+OS CT N* CM   1    0.13771      85.3644          4.         ol6 chi ura,thy 

@@ -1,0 +1,593 @@
+HW OW HW    100.      104.52    TIP3P water
+HW HW OW      0.      127.74    (found in crystallographic water with 3 bonds)
+C  C  O     80.0      120.00    Junmei et al, 1999 acrolein
+C  C  OH    80.0      120.00    Junmei et al, 1999
+CA C  CA    63.0      120.00    changed from 85.0  bsd on C6H6 nmodes; AA
+CA C  OH    70.0      120.00    AA (not used in tyr)
+CB C  NA    70.0      111.30    NA
+CB C  O     80.0      128.80
+CM C  NA    70.0      114.10
+CM C  O     80.0      125.30
+CT C  O     80.0      120.40
+CT C  O2    70.0      117.00
+CT C  N     70.0      116.60    AA general
+CT C  CT    63.0      117.00    Junmei et al, 1999
+CT C  OS    80.0      115.00    Junmei et al, 1999
+CT C  OH    80.0      110.00    Junmei et al, 1999
+N* C  NA    70.0      115.40
+N* C  NC    70.0      118.60
+N* C  O     80.0      120.90
+NA C  O     80.0      120.60
+NC C  O     80.0      122.50
+N  C  O     80.0      122.90    AA general
+O  C  O     80.0      126.00    AA COO  terminal residues
+O  C  OH    80.0      120.00    (check with Junmei for: theta0:120.0?)
+O  C  OS    80.0      125.00    Junmei et al, 1999
+O2 C  O2    80.0      126.00    AA GLU            (SCH JPC 79,2379)
+H4 C  C     50.0      120.00    Junmei et al, 1999 
+H4 C  CM    50.0      115.00    Junmei et al, 1999 
+H4 C  CT    50.0      115.00    Junmei et al, 1999
+H4 C  O     50.0      120.00    Junmei et al, 1999
+H4 C  OH    50.0      120.00    Junmei et al, 1999
+H5 C  N     50.0      120.00    Junmei et al, 1999
+H5 C  O     50.0      119.00    Junmei et al, 1999
+H5 C  OH    50.0      107.00    Junmei et al, 1999
+H5 C  OS    50.0      107.00    Junmei et al, 1999
+C  CA CA    63.0      120.00    changed from 85.0  bsd on C6H6 nmodes
+C  CA HA    50.0      120.00    AA (not used in tyr)
+CA CA CA    63.0      120.00    changed from 85.0  bsd on C6H6 nmodes
+CA CA CB    63.0      120.00    changed from 85.0  bsd on C6H6 nmodes
+CA CA CT    70.0      120.00
+CA CA HA    50.0      120.00
+CA CA H4    50.0      120.00
+CA CA OH    70.0      120.00    replacement in tyr
+CA CA CN    63.0      120.00    changed from 85.0  bsd on C6H6 nmodes; AA trp
+CB CA HA    50.0      120.00
+CB CA H4    50.0      120.00
+CB CA N2    70.0      123.50
+CB CA NC    70.0      117.30
+CM CA N2    70.0      120.10
+CM CA NC    70.0      121.50
+CN CA HA    50.0      120.00    AA trp
+NA CA NC    70.0      123.30
+N2 CA NA    70.0      116.00
+N2 CA NC    70.0      119.30
+N2 CA N2    70.0      120.00    AA arg
+C  CB CB    63.0      119.20    changed from 85.0  bsd on C6H6 nmodes; NA gua
+C  CB NB    70.0      130.00
+CA CB CB    63.0      117.30    changed from 85.0  bsd on C6H6 nmodes; NA ade
+CA CB NB    70.0      132.40    
+CB CB N*    70.0      106.20
+CB CB NB    70.0      110.40
+CB CB NC    70.0      127.70
+C* CB CA    63.0      134.90    changed from 85.0  bsd on C6H6 nmodes; AA trp
+C* CB CN    63.0      108.80    changed from 85.0  bsd on C6H6 nmodes; AA trp
+CA CB CN    63.0      116.20    changed from 85.0  bsd on C6H6 nmodes; AA trp
+N* CB NC    70.0      126.20
+CD CD CM    63.0      120.00    Junmei et al, 1999
+CD CD CT    70.0      120.00    Junmei et al, 1999
+CM CD CT    70.0      120.00    Junmei et al, 1999
+HA CD HA    35.0      119.00    Junmei et al, 1999
+HA CD CD    50.0      120.00    Junmei et al, 1999
+HA CD CM    50.0      120.00    Junmei et al, 1999
+H5 CK N*    50.0      123.05
+H5 CK NB    50.0      123.05
+N* CK NB    70.0      113.90
+C  CM CM    63.0      120.70    changed from 85.0  bsd on C6H6 nmodes; NA thy
+C  CM CT    70.0      119.70
+C  CM HA    50.0      119.70
+C  CM H4    50.0      119.70
+CA CM CM    63.0      117.00    changed from 85.0  bsd on C6H6 nmodes; NA cyt
+CA CM HA    50.0      123.30
+CA CM H4    50.0      123.30
+CM CM CT    70.0      119.70
+CM CM HA    50.0      119.70
+CM CM H4    50.0      119.70
+CM CM N*    70.0      121.20
+CM CM OS    80.0      125.00    Junmei et al, 1999
+H4 CM N*    50.0      119.10
+H4 CM OS    50.0      113.00    Junmei et al, 1999
+HA CM HA    35.0      120.00    Junmei et al, 1999
+HA CM CD    50.0      120.00    Junmei et al, 1999
+HA CM CT    50.0      120.00    Junmei et al, 1999
+NC CQ NC    70.0      129.10
+H5 CQ NC    50.0      115.45
+H1 CT H1    35.0      109.50
+H1 CT N*    50.0      109.50    changed based on NMA nmodes
+H1 CT OH    50.0      109.50    changed based on NMA nmodes 
+H1 CT OS    50.0      109.50    changed based on NMA nmodes 
+H1 CT CM    50.0      109.50    Junmei et al, 1999 
+H1 CT CZ    50.0      110.00    Junmei et al, 1999
+H1 CT N     50.0      109.50    AA general  changed based on NMA nmodes
+H1 CT S     50.0      109.50    AA cys     changed based on NMA nmodes
+H1 CT N2    50.0      109.50    AA arg     changed based on NMA nmodes
+H1 CT NT    50.0      109.50    neutral amines 
+H2 CT H2    35.0      109.50    AA lys
+H2 CT N*    50.0      109.50    changed based on NMA nmodes
+H2 CT OS    50.0      109.50    changed based on NMA nmodes
+HP CT HP    35.0      109.50    AA lys, ch3nh4+
+HP CT N3    50.0      109.50    AA lys, ch3nh3+, changed based on NMA nmodes
+HC CT HC    35.0      109.50
+HC CT CM    50.0      109.50    changed based on NMA nmodes
+HC CT CD    50.0      109.50    Junmei et al, 1999
+HC CT CZ    50.0      110.00    Junmei et al, 1999
+C  CT H1    50.0      109.50    AA general  changed based on NMA nmodes
+C  CT HP    50.0      109.50    AA zwitterion  changed based on NMA nmodes
+C  CT HC    50.0      109.50    AA gln      changed based on NMA nmodes
+C  CT N     63.0      110.10    AA general
+C  CT N3    80.0      111.20    AA amino terminal residues
+C  CT CT    63.0      111.10    AA general
+C  CT OS    60.0      109.50    Junmei et al, 1999
+CA CT HC    50.0      109.50    AA tyr     changed based on NMA nmodes
+CC CT CT    63.0      113.10    AA his
+CC CT HC    50.0      109.50    AA his     changed based on NMA nmodes
+CM CT CT    63.0      111.00    Junmei et al, 1999 (last change: Mar24,99)
+CM CT OS    50.0      109.50    Junmei et al, 1999
+CT CT CT    40.0      109.50
+CT CT HC    50.0      109.50    changed based on NMA nmodes
+CT CT H1    50.0      109.50    changed based on NMA nmodes
+CT CT H2    50.0      109.50    changed based on NMA nmodes
+CT CT HP    50.0      109.50    changed based on NMA nmodes
+CT CT N*    50.0      109.50
+CT CT OH    50.0      109.50
+CT CT OS    50.0      109.50
+CT CT S     50.0      114.70    AA cyx            (SCHERAGA  JPC 79,1428)
+CT CT CA    63.0      114.00    AA phe tyr          (SCH JPC  79,2379)
+CT CT N2    80.0      111.20    AA arg             (JCP 76, 1439)
+CT CT N     80.0      109.70    AA ala, general    (JACS 94, 2657)
+CT CT N3    80.0      111.20    AA lys             (JCP 76, 1439)
+CT CT NT    80.0      111.20    neutral amines 
+CT CT CZ    63.0      110.00    Junmei et al, 1999
+C* CT CT    63.0      115.60    AA trp
+C* CT HC    50.0      109.50    AA trp    changed based on NMA nmodes
+OS CT OS   160.0      101.00    Junmei et al, 1999
+OS CT CZ    50.0      110.00    Junmei et al, 1999
+OS CT N*    50.0      109.50
+CT CC NA    70.0      120.00    AA his
+CT CC NB    70.0      120.00    AA his
+CW CC NA    70.0      120.00    AA his
+CW CC NB    70.0      120.00    AA his
+CT CC CW    70.0      120.00    AA his
+H5 CR NA    50.0      120.00    AA his
+H5 CR NB    50.0      120.00    AA his
+NA CR NA    70.0      120.00    AA his
+NA CR NB    70.0      120.00    AA his
+CC CW H4    50.0      120.00    AA his
+CC CW NA    70.0      120.00    AA his
+C* CW H4    50.0      120.00    AA trp
+C* CW NA    70.0      108.70    AA trp
+H4 CW NA    50.0      120.00    AA his
+CB C* CT    70.0      128.60    AA trp
+CB C* CW    63.0      106.40    changed from 85.0  bsd on C6H6 nmodes; AA trp
+CT C* CW    70.0      125.00    AA trp
+CA CN CB    63.0      122.70    changed from 85.0  bsd on C6H6 nmodes; AA trp
+CA CN NA    70.0      132.80    AA trp
+CB CN NA    70.0      104.40    AA trp
+CT CZ CZ    80.0      180.00    Junmei et al, 1999
+CZ CZ HZ    50.0      180.00    Junmei et al, 1999
+C  N  CT    50.0      121.90    AA general
+C  N  H     50.0      120.00    AA general, gln, asn,changed based on NMA nmodes
+CT N  H     50.0      118.04    AA general,     changed based on NMA nmodes
+CT N  CT    50.0      118.00    AA pro             (DETAR JACS 99,1232)
+H  N  H     35.0      120.00    ade,cyt,gua,gln,asn     **
+C  N* CM    70.0      121.60
+C  N* CT    70.0      117.60
+C  N* H     50.0      119.20    changed based on NMA nmodes
+CB N* CK    70.0      105.40
+CB N* CT    70.0      125.80
+CB N* H     50.0      125.80    for unmethylated n.a. bases,chngd bsd NMA nmodes
+CK N* CT    70.0      128.80
+CK N* H     50.0      128.80    for unmethylated n.a. bases,chngd bsd NMA nmodes
+CM N* CT    70.0      121.20
+CM N* H     50.0      121.20    for unmethylated n.a. bases,chngd bsd NMA nmodes
+CA N2 H     50.0      120.00    
+CA N2 CT    50.0      123.20    AA arg
+CT N2 H     50.0      118.40    AA arg
+H  N2 H     35.0      120.00    
+CT N3 H     50.0      109.50    AA lys,     changed based on NMA nmodes
+CT N3 CT    50.0      109.50    AA pro/nt
+H  N3 H     35.0      109.50    AA lys, AA(end)
+CT NT H     50.0      109.50    neutral amines 
+CT NT CT    50.0      109.50    neutral amines 
+H  NT H     35.0      109.50    neutral amines 
+C  NA C     70.0      126.40
+C  NA CA    70.0      125.20
+C  NA H     50.0      116.80    changed based on NMA nmodes
+CA NA H     50.0      118.00    changed based on NMA nmodes
+CC NA CR    70.0      120.00    AA his
+CC NA H     50.0      120.00    AA his,    changed based on NMA nmodes
+CR NA CW    70.0      120.00    AA his
+CR NA H     50.0      120.00    AA his,    changed based on NMA nmodes
+CW NA H     50.0      120.00    AA his,    changed based on NMA nmodes
+CN NA CW    70.0      111.60    AA trp
+CN NA H     50.0      123.10    AA trp,    changed based on NMA nmodes
+CB NB CK    70.0      103.80
+CC NB CR    70.0      117.00    AA his
+C  NC CA    70.0      120.50
+CA NC CB    70.0      112.20
+CA NC CQ    70.0      118.60
+CB NC CQ    70.0      111.00
+C  OH HO    50.0      113.00    (not used in tyr anymore)
+CA OH HO    50.0      113.00    replacement in tyr
+CT OH HO    55.0      108.50
+HO OH P     45.0      108.50
+C  OS CT    60.0      117.00    Junmei et al, 1999
+CM OS CT    60.0      117.00    Junmei et al, 1999
+CT OS CT    60.0      109.50
+CT OS P    100.0      120.50
+P  OS P    100.0      120.50
+O2 P  OH    45.0      108.23
+O2 P  O2   140.0      119.90
+O2 P  OS   100.0      108.23
+OH P  OS    45.0      102.60
+OS P  OS    45.0      102.60
+CT S  CT    62.0       98.90    AA met
+CT S  S     68.0      103.70    AA cyx             (SCHERAGA  JPC 79,1428)
+CB NB LP   150.0       126.0    NA
+CC NB LP   150.0       126.0    his,NA
+CK NB LP   150.0       126.0    NA
+CR NB LP   150.0       126.0    his,NA
+C  NC LP   150.0       120.0    NA
+CA NC LP   150.0       120.0    NA
+CB NC LP   150.0       120.0    NA
+CQ NC LP   150.0       120.0    NA
+CT N3 LP   150.0       109.5    in neutral lysine
+H  N3 LP   150.0       109.5    in neutral lysine
+CT NT LP   150.0       109.5
+H  NT LP   150.0       109.5
+C  O  LP   150.0       120.0
+LP O  LP   150.0       120.0
+C  OH LP   150.0       120.0
+CT OH LP   150.0       109.5
+HO OH LP   150.0       109.5
+LP OH LP   150.0       109.5
+C  OS LP   150.0       109.5 
+CM OS LP   150.0       109.5    methyl vinyl ether
+CT OS LP   150.0       109.5
+LP OS LP   150.0       109.5
+CT S  LP   150.0        90.0    cys,cyx,met
+P  OS LP   150.0       109.5    NA
+LP S  LP   150.0       180.0    cys,cyx,met
+C  CB CB   67.9      119.752   same as c  c2 c2
+C  CM CM   67.9      118.156   same as c  c2 c2
+C  CM CT   63.9      118.401   same as c  c2 c3
+C  CM HA   48        118.309   same as c  c2 hc
+C  CM OH   70.3      116.999   Calculated with empirical approach
+C  CM OS   69.9      118.744   Calculated with empirical approach
+C  CT CT   63.8      111.288   same as c  c3 c3
+C  CT H1   47.2      107.918   same as c  c3 hc
+C  CT HC   47.2      108.095   same as c  c3 hc
+C  CT N    66.7      110.804   same as c  c3 n
+C  CT NT   65.8      113.025   same as c  c3 n3
+C  CT OH   68.4      108.523   same as c  c3 oh
+C  N  C    67.4      128.243   same as c  n  c
+C  N  CT   63.9      121.248   same as c  n  c3
+C  N  H    49.2      118.098   same as c  n  hn
+C  N* C    64.7      124.78    same as c  na c
+C  N* CA   64.3      126.542   same as c  na c2
+C  N* CB   64.3      126.145   same as c  na c2
+C  N* CM   64.3      121.204   same as c  na c2
+C  N* CT   64.7      116.471   same as c  na c3
+C  N* CZ   65.3      124.581   Calculated with empirical approach
+C  NA C    64.7      127.995   same as c  na c
+C  NA CA   64.3      125.995   same as c  na c2
+C  NA CM   64.3      124.776   same as c  na c2
+C  NA H    48.8      115.208   same as c  na hn
+C  NC CA   66.2      120.986   same as c  n2 c2
+C  OH HO   51.2      108.188   same as c  oh ho
+C  OS CT   63.6      117.855   same as c  os c3
+C* CA H4   50        129.548   same as c2 c2 ha
+C* CB C    67.9      134.425   same as c  c2 c2
+C* CB CB   67.9      107.215   same as cc cc cc
+C* CM N    68.8      117.785   same as c2 c2 n
+C* CM NT   70.3      116.153   same as c2 c2 n3
+C* CT H1   47        109.169   same as c2 c3 hc
+C* CT NT   66.5      110.932   same as c2 c3 n3
+C* CZ NY   63.1      178.082   same as c2 c1 n1
+CA C* CB   67.7      105.741   same as ca cc cc
+CA C* CM   67.7      122.327   same as ca cc cc
+CA C* CT   64.3      127.527   same as c2 c2 c3
+CA C* CZ   70.3      124.751   same as c1 c2 c2
+CA CB CB   67.7      115.919   same as ca cc cc
+CA CM C    67.9      125.271   same as c  c2 c2
+CA CM CM   67.7      115.169   same as ca cc cc
+CA CM CT   64.3      122.722   same as c2 c2 c3
+CA CM HA   50.3      122.688   same as c2 c2 hc
+CA CT CT   63.7      113.392   same as c2 c3 c3
+CA CT HC   47        109.45    same as c2 c3 hc
+CA N* C    64.3      132.609   same as c  na c2
+CA N* CB   67.8      108.366   same as c2 na c2
+CA N* CM   67.8      120.75    same as c2 na c2
+CA N* CT   64.2      119.96    same as c2 na c3
+CA N* CZ   64.3      111.962   same as c1 na c2
+CA N* H    47.6      114.147   same as c2 na hn
+CA N2 CB   66.2      113.215   same as c2 n3 c2
+CA N2 CM   66.2      113.099   same as c2 n3 c2
+CA N2 CT   62.8      122.547   Calculated with empirical approach
+CA N2 H    49.1      117.245   same as c2 n3 hn
+CA NA C    64.3      128.333   same as c  na c2
+CA NA H    47.6      118.502   same as c2 na hn
+CA NC CA   70.7      121.585   same as ca nc ca
+CA NC CB   69.4      113.303   Calculated with empirical approach
+CA NC CM   69.4      120.184   Calculated with empirical approach
+CA NC CQ   69.4      119.245   Calculated with empirical approach
+CB C  N*   69.5      110.71    Calculated with empirical approach
+CB C  NA   69.5      110.155   Calculated with empirical approach
+CB C  O    72.8      129.32    same as c2 c  o
+CB C* CM   67.9      132.139   same as cc cc cc
+CB C* CT   64.3      126.643   same as c2 c2 c3
+CB C* CZ   70.3      128.833   same as c1 c2 c2
+CB CA N*   69.8      123.497   same as c2 c2 na
+CB CA N2   68.6      123.17    same as cc cc nh
+CB CA NC   70        118.125   same as cc cc nc
+CB CB NA   69.8      124.672   same as c2 c2 na
+CB CB NC   70        127.345   same as cc cc nc
+CB CM N2   68.6      119.001   same as cc cc nh
+CB N* CA   67.8      105.097   same as c2 na c2
+CB N* CT   64.2      125.988   same as c2 na c3
+CB N2 CB   66.2      115.425   same as c2 n3 c2
+CB NA CB   67.8      116.767   same as c2 na c2
+CB NA H    47.6      121.617   same as c2 na hn
+CB NB CC   68.6      105.102   same as cc nc cc
+CC CA CT   64.3      130.998   same as c2 c2 c3
+CC CA H4   50        133.317   same as c2 c2 ha
+CC CT HC   47        110.77    same as c2 c3 hc
+CK N* CB   67.8      105.58    same as c2 na c2
+CK N2 CB   66.2      104.888   same as c2 n3 c2
+CK NB CB   68.6      104.389   same as cc nc cc
+CM C  H4   48.6      114.417   same as c2 c  ha
+CM C  N*   69.5      116.519   Calculated with empirical approach
+CM C  NA   69.5      114.66    Calculated with empirical approach
+CM C  O    72.8      124.464   same as c2 c  o
+CM CB CB   67.9      118.38    same as cc cc cc
+CM CM C    67.9      119.526   same as c  c2 c2
+CM CM CM   67.9      118.338   same as cc cc cc
+CM CM CT   64.3      123.823   same as c2 c2 c3
+CM CM H4   50        121.179   same as c2 c2 ha
+CM CM HA   50.3      121.757   same as c2 c2 hc
+CM CM N*   69.8      123.807   same as c2 c2 na
+CM CM NA   69.8      122.685   same as c2 c2 na
+CM CM OH   71.6      123.631   same as c2 c2 oh
+CM CM OS   71.2      121.959   same as c2 c2 os
+CM CT C    64.6      115.312   same as c  c3 c2
+CM CT H1   47        108.557   same as c2 c3 hc
+CM CT HC   47        110.517   same as c2 c3 hc
+CM CT NT   66.5      111.174   same as c2 c3 n3
+CM CT OH   68.3      108.954   same as c2 c3 oh
+CM N  H    47.4      111.586   same as c2 n  hn
+CM N* CT   64.2      121.766   same as c2 na c3
+CM N2 CA   66.2      120.796   same as c2 n3 c2
+CM N2 CT   62.8      120.12    Calculated with empirical approach
+CM N2 H    49.1      119.208   same as c2 n3 hn
+CM NA H    47.6      120.094   same as c2 na hn
+CM NT H    49.1      118.201   same as c2 n3 hn
+CM OH HO   49.9      107.839   same as c2 oh ho
+CM OS CT   64.2      116.978   same as c2 os c3
+CQ CT HC   47        110.085   same as c2 c3 hc
+CQ NC CB   68.6      111.637   same as cc nc cc
+CQ S  CT   63.4      102.43    same as c2 ss c3
+CR N* CB   67.8      107.049   same as c2 na c2
+CR N* CT   64.2      126.963   same as c2 na c3
+CR N2 CB   66.2      107.528   same as c2 n3 c2
+CT C  N    67.9      115.172   same as c3 c  n
+CT C  O    68        119.758   same as c3 c  o
+CT C  OH   69.8      111.96    same as c3 c  oh
+CT C  OS   69.3      113.272   same as c3 c  os
+CT CC CA   64.3      129.279   same as c2 c2 c3
+CT CM C    63.9      117.874   same as c  c2 c3
+CT CM CM   64.3      122.22    same as c2 c2 c3
+CT CM CT   62.7      113.969   same as c3 c2 c3
+CT CM HA   45.1      116.61    same as c3 c2 hc
+CT CT C    63.8      110.417   same as c  c3 c3
+CT CT CM   63.7      109.377   same as c2 c3 c3
+CT CT CT   63.2      105.752   same as c3 c3 c3
+CT CT H1   46.4      110.67    same as c3 c3 hc
+CT CT H2   46.4      109.666   same as c3 c3 hc
+CT CT HC   46.4      109.769   same as c3 c3 hc
+CT CT HP   46.4      110.152   same as c3 c3 hc
+CT CT N    65.9      110.32    same as c3 c3 n
+CT CT N*   65.8      112.236   same as c3 c3 na
+CT CT N2   66.2      112.279   same as c3 c3 n3
+CT CT N3   66        110.5     same as c3 c3 n4
+CT CT NT   66.2      111.327   same as c3 c3 n3
+CT CT O    62.6      111.463   Calculated with empirical approach
+CT CT OH   67.7      110.138   same as c3 c3 oh
+CT CT SO   61.1      112.92    same as c3 c3 ss
+CT N  C    63.9      121.924   same as c  n  c3
+CT N  CT   64        117.506   same as c3 n  c3
+CT N  H    46        117.716   same as c3 n  hn
+CT N* C    64.7      117.091   same as c  na c3
+CT N* CA   64.2      122.257   same as c2 na c3
+CT N* CB   64.2      126.341   same as c2 na c3
+CT N* CK   64.2      128.013   same as c2 na c3
+CT N* CM   64.2      121.182   same as c2 na c3
+CT N2 CA   62.82     121.562   Calculated with empirical approach
+CT N2 CB   62.82     125.878   Calculated with empirical approach
+CT N2 CK   62.82     124.774   Calculated with empirical approach
+CT N2 CM   62.82     119.952   Calculated with empirical approach
+CT N2 CR   62.82     127.042   Calculated with empirical approach
+CT N2 CT   64        119.295   same as c3 n3 c3
+CT N3 H    46.2      113.745   same as c3 n4 hn
+CT NT CT   64        114.333   same as c3 n3 c3
+CT NT H    47.1      108.58    same as c3 n3 hn
+CT OH HO   47.1      109.342   same as c3 oh ho
+CT OS CT   62.1      109.128   same as c3 os c3
+CT SO O    64.7      104.221   same as c3 ss o
+CZ CM CT   65.1      130.435   same as c1 c2 c3
+H  N  CT   46        112.206   same as c3 n  hn
+H  N  H    39.7      118.563   same as hn n  hn
+H  N* C    48.8      111.204   same as c  na hn
+H  N2 CM   49.1      126.806   same as c2 n3 hn
+H  N2 CT   47.1      118.205   same as c3 n3 hn
+H  N2 H    41.3      116.831   same as hn n3 hn
+H  N3 H    40.5      108.75    same as hn n4 hn
+H  NT H    41.3      107.467   same as hn n3 hn
+H1 CT C    47.2      108.094   same as c  c3 hc
+H1 CT CM   47        110.537   same as c2 c3 hc
+H1 CT H1   39.4      113.664   same as hc c3 hc
+H1 CT NT   49.4      110.495   same as hc c3 n3
+H1 CT O    47.5      104.387   Calculated with empirical approach
+H1 CT SO   42.5      107.041   same as hc c3 ss
+H4 C  O    54.3      119.649   same as ha c  o
+HA CM CM   50.3      117.77    same as c2 c2 hc
+HC CT C    47.2      107.749   same as c  c3 hc
+HC CT HC   39.4      107.737   same as hc c3 hc
+HP CT C    47.2      108.911   same as c  c3 hc
+HP CT N3   49        107.076   same as hc c3 n4
+H5 C2 N*   50.0      123.05 
+H5 C2 NB   50.0      123.05 
+N  C  CT   67.9      114.253   same as c3 c  n
+N  C  N    75.4      115.304   same as n  c  n
+N  C  O    75.8      124.558   same as n  c  o
+N  C  OS   74.7      111.536   same as n  c  os
+N  CT C    66.7      109.408   same as c  c3 n
+N  CT CT   65.9      112.11    same as c3 c3 n
+N  CT H1   49.8      109.138   same as hc c3 n
+N  CT H2   49.8      106.666   same as hc c3 n
+N* C  CM   69.5      114.803   Calculated with empirical approach
+N* C  CT   65.1      120.292   Calculated with empirical approach
+N* C  N    73.4      117.512   Calculated with empirical approach
+N* C  N*   73.2      116.628   same as na c  na
+N* C  NA   73.2      114.609   same as na c  na
+N* C  NC   70.7      117.525   same as n2 c  na
+N* C  O    75        120.653   same as na c  o
+N* CA C*   69.8      109.929   same as c2 c2 na
+N* CA CC   69.8      105.093   same as c2 c2 na
+N* CA CM   69.8      116.251   same as c2 c2 na
+N* CA CT   65        124.051   same as c3 c2 na
+N* CA H4   51.2      120.546   same as ha c2 na
+N* CA H5   51.2      115.182   same as ha c2 na
+N* CA N2   73.1      117.056   Calculated with empirical approach
+N* CA NA   73.7      115.204   same as na c2 na
+N* CA NC   71.7      120.896   same as n2 c2 na
+N* CA SS   67.3      123.87    Calculated with empirical approach
+N* CB C    69.9      132.296   Calculated with empirical approach
+N* CB CB   69.8      106.389   same as c2 c2 na
+N* CB N2   73.1      121.326   Calculated with empirical approach
+N* CB NA   73.7      119.604   same as na c2 na
+N* CB NB   71.7      113.548   same as n2 c2 na
+N* CB NC   71.7      126.376   same as n2 c2 na
+N* CK H5   51.2      120.837   same as ha c2 na
+N* CK NB   71.7      113.974   same as n2 c2 na
+N* CM CM   69.8      123.348   same as c2 c2 na
+N* CM H4   51.2      115.464   same as ha c2 na
+N* CM N2   73.1      125.428   Calculated with empirical approach
+N* CR H5   51.2      124.742   same as ha c2 na
+N* CT CT   65.8      112.478   same as c3 c3 na
+N* CT H1   49.9      109.200   same as hc c3 na
+N* CT H2   49.9      106.725   same as hc c3 na
+N* CZ CM   58.0      101.033   Calculated with empirical approach
+N2 CA CM   68.6      119.522   same as cc cc nh
+N2 CA H5   52.4      114.778   same as ha c2 n3
+N2 CA N2   71.4      122.988   same as nh ca nh
+N2 CA NC   72.8      119.707   same as nc ca nh
+N2 CB CB   68.6      111.443   same as cc cc nh
+N2 CB N2   72.9      129.382   same as nh cc nh
+N2 CB NA   73.1      128.124   Calculated with empirical approach
+N2 CB NC   73.9      125.224   same as nc cc nh
+N2 CK H5   52.4      120.604   same as ha c2 n3
+N2 CK NB   73.9      113.552   same as nc cc nh
+N2 CM CM   68.6      120.814   same as cc cc nh
+N2 CM CT   64.0      118.664   Calculated with empirical approach
+N2 CM CZ   72.6      110.899   Calculated with empirical approach
+N2 CM H4   52.4      115.297   same as ha c2 n3
+N2 CM N2   72.9      121.999   same as nh cc nh
+N2 CR H5   52.4      124.126   same as ha c2 n3
+N2 CR N*   73.1      111.132   Calculated with empirical approach
+N2 CT CM   66.5      109.167   same as c2 c3 n3
+N2 CT H1   49.4      109.939   same as hc c3 n3
+N2 CT H2   49.4      106.641   same as hc c3 n3
+N3 CT C    65.8      103.903   same as c  c3 n4
+NA C  CM   69.5      113.814   Calculated with empirical approach
+NA C  N*   73.2      114.584   same as na c  na
+NA C  NA   73.2      113.292   same as na c  na
+NA C  O    75        120.4     same as na c  o
+NA CA H5   51.2      115.499   same as ha c2 na
+NA CA N2   73.1      116.58    Calculated with empirical approach
+NA CA NC   71.7      123.606   same as n2 c2 na
+NA CM CM   69.8      113.787   same as c2 c2 na
+NA CM H4   51.2      114.801   same as ha c2 na
+NA CM SS   67.3      121.317   Calculated with empirical approach
+NB CB C    69.9      129.532   Calculated with empirical approach
+NB CB CA   70        133.697   same as cc cc nc
+NB CB CB   70        110.347   same as cc cc nc
+NB CB CM   70        130.677   same as cc cc nc
+NB CB N2   73.9      125.277   same as nc cc nh
+NB CB NA   71.7      126.473   same as n2 c2 na
+NB CC CA   70        111.16    same as cc cc nc
+NB CC CT   67.1      119.56    same as c3 c2 n2
+NB CK H5   52.4      125.355   same as ha c2 n2
+NC CA CM   70        123.131   same as cc cc nc
+NC CA H5   52.4      119.04    same as ha c2 n2
+NC CA N*   71.7      120.467   same as n2 c2 na
+NC CA N2   72.8      117.38    same as nc ca nh
+NC CM CM   70        121.999   same as cc cc nc
+NC CM N2   73.9      117.514   same as nc cc nh
+NC CQ CT   67.1      116.471   same as c3 c2 n2
+NC CQ H5   52.4      115.729   same as ha c2 n2
+NC CQ NC   68.1      128.357   same as ne ce ne
+NC CQ S    62.9      115.932   same as n2 c2 ss
+NT CM N    71.8      126.003   Calculated with empirical approach
+NT CT C    65.8      111.158   same as c  c3 n3
+NT CT CM   66.5      112.158   same as c2 c3 n3
+NT CT CT   66.2      110.347   same as c3 c3 n3
+NT CT H1   49.4      110.604   same as hc c3 n3
+O  C  CM   72.8      125.59    same as c2 c  o
+O  C  CT   68        124.332   same as c3 c  o
+O  C  N    75.8      123.095   same as n  c  o
+O  C  N*   75        121.589   same as na c  o
+O  C  NA   75        120.66    same as na c  o
+O  C  NC   73        124.468   same as n2 c  o
+O  C  O    79.1      129.526   same as o  c  o
+O  C  OS   76.2      123.174   same as o  c  os
+O  P  O    45.1      119.572   same as o  p4 o
+O  P  OS   43.1      108.424   same as o  p4 os
+O  SO O    69.8      114.173   same as o  ss o
+O2 P  O2   45.1      109.01    same as o  p4 o
+O2 P  OS   43.1      110.621   same as o  p4 os
+OH C  O    77.4      122.841   same as o  c  oh
+OH CT C    68.4      109.600   same as c  c3 oh
+OH CT CM   68.3      115.74    same as c2 c3 oh
+OH CT H1   51.1      106.533   same as hc c3 oh
+OH P  O2   42.9      107.128   same as o  p4 oh
+OS C  O    76.2      122.845   same as o  c  os
+OS CT C    68        114.581   same as c  c3 os
+OS CT CM   68.3      109.391   same as c2 c3 os
+OS CT CT   67.8      108.741   same as c3 c3 os
+OS CT H1   50.9      108.435   same as hc c3 os
+OS CT H2   50.9      112.501   same as hc c3 os
+OS CT N    70.1      109.384   Calculated with empirical approach
+OS CT N*   71.2      109.378   same as na c3 os
+OS CT N2   70.3      109.387   Calculated with empirical approach
+OS CT OS   71.7      106.852   same as os c3 os
+OS P  OH   72.2      122.468   Calculated with empirical approach
+P  OH HO   55.3      106.135   same as ho oh p4
+P  OS CT   77.6      120.465   same as c3 os p4
+S  CT H1   42.5      109.385   same as hc c3 ss
+SS CA NA   67.3      120.526   Calculated with empirical approach
+SS CA NC   62.9      121.654   same as n2 c2 ss
+SS CM CM   63.9      124.896   same as c2 c2 ss
+N* C2 NB   70.0      113.90 
+CB N* C2   70.0      105.40 
+C2 N* CT   70.0      128.80 
+CB NB C2   70.0      103.80 
+C1 C  NA   70.0      114.10 
+C1 C  O    80.0      125.30 
+C1 CA N2   70.0      120.10 
+C1 CA NC   70.0      121.50 
+C  C1 C1   63.0      120.70    changed from 85.0  bsd on C6H6 nmodes; NA thy 
+C  C1 CT   70.0      119.70 
+C  C1 HA   50.0      119.70 
+C  C1 H4   50.0      119.70 
+CA C1 C1   63.0      117.00    changed from 85.0  bsd on C6H6 nmodes; NA cyt 
+CA C1 HA   50.0      123.30 
+CA C1 H4   50.0      123.30 
+C1 C1 CT   70.0      119.70 
+C1 C1 HA   50.0      119.70 
+C1 C1 H4   50.0      119.70 
+C1 C1 N*   70.0      121.20 
+H4 C1 N*   50.0      119.10 
+H1 CT C1   50.0      109.50    Junmei et al, 1999  
+HC CT C1   50.0      109.50    changed based on NMA nmodes 
+C  N* C1   70.0      121.60 
+C1 N* CT   70.0      121.20 

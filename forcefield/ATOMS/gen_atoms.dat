@@ -1,0 +1,47 @@
+C  12.010        0.616               same as c  
+C* 12.010        0.360               same as c2 
+CA 12.010        0.360               same as c2 
+CB 12.010        0.360               same as c2 
+CC 12.010        0.360               same as c2 
+CD 12.01         0.360               sp2 C atom in the middle of: C=CD-CD=C
+CK 12.010        0.360               same as c2 
+CM 12.010        0.360               same as c2 
+CN 12.01         0.360               sp2 C aromatic 5&6 memb.ring junct.(TRP)
+CQ 12.010        0.360               same as c2 
+CR 12.010        0.360               same as c2 
+CT 12.010        0.878               same as c3 
+CW 12.01         0.360               sp2 arom. 5 memb.ring w/1 N-H and 1 H (HIS)
+CZ 12.010        0.360               same as c1 
+H  1.008         0.161               same as hn 
+H1 1.008         0.135               same as hc 
+H2 1.008         0.135               same as hc 
+H3 1.008         0.135               H aliph. bond. to C with 3 eletrwd.groups
+H4 1.008         0.135               same as ha 
+H5 1.008         0.135               same as ha 
+HA 1.008         0.135               same as hc 
+HC 1.008         0.135               same as hc 
+HO 1.008         0.135               same as ho 
+HP 1.008         0.135               same as hc 
+HW 1.008         0.000               H in TIP3P water
+HZ 1.008         0.161               H bond sp C (Howard et al.JCC,16,243,1995)
+IM 35.45         3.235               assumed to be Cl- (ion minus)
+IP 22.99         0.250               assumed to be Na+ (ion plus)
+LP  3.00         0.000               lone pair
+N  14.010        0.530               same as n  
+N* 14.010        0.530               same as na 
+N2 14.010        0.530               same as n3 
+N3 14.010        0.530               same as n4 
+NA 14.010        0.530               same as na 
+NB 14.010        0.530               same as n2 
+NC 14.010        0.530               same as n2 
+NT 14.010        0.530               same as n3 
+NY 14.010        0.530               same as n1 
+O  16.000        0.434               same as o  
+O2 16.000        0.434               same as o  
+OH 16.000        0.465               same as oh 
+OS 16.000        0.465               same as os 
+OW 16.00         0.000               oxygen in TIP3P water
+P  30.970        1.538               same as p4 
+S  32.060        2.900               same as ss 
+SO 32.060        2.900               same as ss 
+SS 32.060        2.900               same as ss 

@@ -1,0 +1,47 @@
+  C           1.9080  0.0860             same as c
+  C*          1.9080  0.0860             same as cc
+  CA          1.9080  0.0860             same as ca
+  CB          1.9080  0.0860             same as cc
+  CC          1.9080  0.0860             same as cc
+  CD          1.9080  0.0860             same as cc
+  CK          1.9080  0.0860             same as cc
+  CM          1.9080  0.0860             same as cc
+  CN          1.9080  0.0860             same as cc
+  CQ          1.9080  0.0860             same as cc
+  CR          1.9080  0.0860             same as cc
+  CT          1.9080  0.1094             same as c3
+  CW          1.9080  0.0860             same as cc
+  CZ          1.9080  0.0860             same as c1
+  H           0.6000  0.0157             same as hn
+  H1          1.4870  0.0157             same as hc
+  H2          1.4870  0.0157             same as hc
+  H3          1.1870  0.0157             Veenstra et al JCC,8,(1992),963 
+  H4          1.4870  0.0157             same as hc
+  H5          1.4870  0.0157             same as hc
+  H5          1.4870  0.0157             same as hc
+  HA          1.4870  0.0157             same as hc
+  HC          1.4870  0.0157             same as hc
+  HO          0.6000  0.0157             same as ho
+  HP          1.4870  0.0157             same as hc
+  HW          0.0000  0.0000             TIP3P water model
+  HZ          1.4590  0.0150             H bonded to sp C (Howard et al JCC 16)
+  IM          2.47    0.1                Cl- Smith & Dang, JCP 1994,100:5,3757
+  IP          1.8680  0.00277            Na+ Aqvist JPC 1990,94,8021. (adapted)
+  LP          0.00    0.0000             lone pair
+  N           1.8240  0.1700             same as n
+  N*          1.8240  0.1700             same as na
+  N2          1.8240  0.1700             same as nh
+  NA          1.8240  0.1700             same as na
+  NB          1.8240  0.1700             same as nc
+  NC          1.8240  0.1700             same as nc
+  NT          1.8240  0.1700             same as n3
+  NY          1.8240  0.1700             same as n1
+  O           1.6612  0.2100             same as o
+  O2          1.6612  0.2100             same as o
+  OH          1.7210  0.2104             same as oh
+  OS          1.6837  0.1700             same as os
+  OW          1.7683  0.1520             TIP3P water model
+  P           2.1000  0.2000             same as p4
+  S           2.0000  0.2500             same as ss
+  SO          2.0000  0.2500             same as ss
+  SS          2.0000  0.2500             same as ss

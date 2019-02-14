@@ -1,0 +1,71 @@
+REMARK 999 003F3F88                                                          
+REMARK 999 003F3F88                                                          
+REMARK 999 003F3F88                                                             
+REMARK 999 003F3F88           
+REMARK 999 003F3F88                             
+REMARK 999 003F3D58                                                                     
+REMARK 999 003F3D58                                                 
+HETATM    1  P   C1L     1      -3.014   4.754  -3.909  1.00  0.00           P  
+HETATM    2  O1P C1L     1      -3.982   6.150  -3.449  1.00  0.00           O  
+HETATM    3  O2P C1L     1      -1.451   5.296  -4.509  1.00  0.00           O  
+HETATM    4  O5' C1L     1      -2.776   3.718  -2.506  1.00  0.00           O  
+HETATM    5  C5' C1L     1      -4.011   3.214  -2.084  1.00  0.00           C  
+HETATM    6  C4' C1L     1      -3.789   2.331  -0.885  1.00  0.00           C  
+HETATM    7  O4' C1L     1      -2.997   1.209  -1.220  1.00  0.00           O  
+HETATM    8  C3' C1L     1      -3.036   2.903   0.324  1.00  0.00           C  
+HETATM    9  O3' C1L     1      -3.667   3.960   0.974  1.00  0.00           O  
+HETATM   10  C2' C1L     1      -3.137   1.563   1.043  1.00  0.00           C  
+HETATM   11  O2' C1L     1      -4.546   1.376   1.082  1.00  0.00           O  
+HETATM   12  C1' C1L     1      -2.567   0.603   0.000  1.00  0.00           C  
+HETATM   13  N1  C1L     1      -1.107   0.431  -0.000  1.00  0.00           N  
+HETATM   14  C2  C1L     1      -0.576  -0.545   0.866  1.00  0.00           C  
+HETATM   15  O2  C1L     1      -1.340  -1.171   1.545  1.00  0.00           O  
+HETATM   16  N3  C1L     1       0.774  -0.713   0.875  1.00  0.00           N  
+HETATM   17  C4  C1L     1       1.535   0.004   0.109  1.00  0.00           C  
+HETATM   18  N4  C1L     1       2.860  -0.211   0.165  1.00  0.00           N  
+HETATM   19  C5  C1L     1       1.031   1.009  -0.788  1.00  0.00           C  
+HETATM   20  C6  C1L     1      -0.301   1.168  -0.790  1.00  0.00           C  
+HETATM   21 1H5' C1L     1      -4.487   2.632  -2.870  1.00  0.00           H  
+HETATM   22 2H5' C1L     1      -4.683   4.018  -1.797  1.00  0.00           H  
+HETATM   23  H3' C1L     1      -2.037   3.210   0.061  1.00  0.00           H  
+HETATM   24  H2' C1L     1      -2.741   1.480   2.044  1.00  0.00           H  
+HETATM   25  H1' C1L     1      -3.050  -0.362   0.100  1.00  0.00           H  
+HETATM   26 1H4  C1L     1       3.201  -0.909   0.787  1.00  0.00           H  
+HETATM   27 2H4  C1L     1       3.503   0.298  -0.392  1.00  0.00           H  
+HETATM   28  H5  C1L     1       1.673   1.594  -1.416  1.00  0.00           H  
+HETATM   29  H6  C1L     1      -0.785   1.890  -1.420  1.00  0.00           H  
+HETATM   30  CM2 C1L     1      -5.045   1.790  -0.189  1.00  0.00           C  
+HETATM   31 1HM' C1L     1      -5.816   2.537  -0.042  1.00  0.00           H  
+HETATM   32 2HM' C1L     1      -5.461   0.945  -0.720  1.00  0.00           H  
+CONECT    1    4    3    2
+CONECT    2    1
+CONECT    3    1
+CONECT    4    5    1
+CONECT    5    6    4   21   22
+CONECT    6    7    8    5   30
+CONECT    7   12    6
+CONECT    8   10    6    9   23
+CONECT    9    8
+CONECT   10   12    8   11   24
+CONECT   11   10   30
+CONECT   12   13    7   10   25
+CONECT   13   20   14   12
+CONECT   14   13   16   15
+CONECT   15   14
+CONECT   16   17   14
+CONECT   17   19   18   16
+CONECT   18   17   26   27
+CONECT   19   20   28   17
+CONECT   20   13   29   19
+CONECT   21    5
+CONECT   22    5
+CONECT   23    8
+CONECT   24   10
+CONECT   25   12
+CONECT   26   18
+CONECT   27   18
+CONECT   28   19
+CONECT   29   20
+CONECT   30    6   11   31   32
+CONECT   31   30
+CONECT   32   30

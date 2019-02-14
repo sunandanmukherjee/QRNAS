@@ -1,0 +1,71 @@
+ATOM      1  P   DT  B   5      -2.455   8.387  -2.230  1.00  0.00           P  
+ATOM      2  O1P DT  B   5      -1.062   8.021  -1.869  1.00  0.00           O  
+ATOM      3  O2P DT  B   5      -3.225   7.521  -3.159  1.00  0.00           O  
+ATOM      4  O5' DT  B   5      -3.292   8.543  -0.885  1.00  0.00           O  
+ATOM      5  C5' DT  B   5      -3.147   9.701  -0.061  1.00  0.00           C  
+ATOM      6  C4' DT  B   5      -3.955   9.543   1.206  1.00  0.00           C  
+ATOM      7  O4' DT  B   5      -5.361   9.625   0.878  1.00  0.00           O  
+ATOM      8  C3' DT  B   5      -3.774   8.205   1.920  1.00  0.00           C  
+ATOM      9  O3' DT  B   5      -3.920   8.370   3.334  1.00  0.00           O  
+ATOM     10  C2' DT  B   5      -4.900   7.358   1.358  1.00  0.00           C  
+ATOM     11  C1' DT  B   5      -6.001   8.376   1.103  1.00  0.00           C  
+ATOM     12  N1  DT  B   5      -6.838   8.078  -0.074  1.00  0.00           N  
+ATOM     13  C2  DT  B   5      -8.200   8.241   0.036  1.00  0.00           C  
+ATOM     14  O2  DT  B   5      -8.744   8.628   1.058  1.00  0.00           O  
+ATOM     15  N3  DT  B   5      -8.905   7.937  -1.099  1.00  0.00           N  
+ATOM     16  C4  DT  B   5      -8.395   7.505  -2.306  1.00  0.00           C  
+ATOM     17  O4  DT  B   5      -9.153   7.278  -3.245  1.00  0.00           O  
+ATOM     18  C5  DT  B   5      -6.959   7.357  -2.352  1.00  0.00           C  
+ATOM     19  C7  DT  B   5      -6.320   6.883  -3.618  1.00  0.00           C  
+ATOM     20  C6  DT  B   5      -6.256   7.646  -1.247  1.00  0.00           C  
+ATOM     21 H5'1 DT  B   5      -3.498  10.580  -0.600  1.00  0.00           H  
+ATOM     22 H5'2 DT  B   5      -2.097   9.835   0.199  1.00  0.00           H  
+ATOM     23  H4' DT  B   5      -3.630  10.318   1.904  1.00  0.00           H  
+ATOM     24  H3' DT  B   5      -2.796   7.776   1.709  1.00  0.00           H  
+ATOM     25 H2'1 DT  B   5      -4.592   6.844   0.447  1.00  0.00           H  
+ATOM     26 H2'2 DT  B   5      -5.217   6.598   2.073  1.00  0.00           H  
+ATOM     27  H1' DT  B   5      -6.650   8.479   1.973  1.00  0.00           H  
+ATOM     28  H3  DT  B   5      -9.915   7.970  -1.050  1.00  0.00           H  
+ATOM     29  H71 DT  B   5      -6.774   5.939  -3.922  1.00  0.00           H  
+ATOM     30  H72 DT  B   5      -6.467   7.626  -4.400  1.00  0.00           H  
+ATOM     31  H73 DT  B   5      -5.254   6.735  -3.453  1.00  0.00           H  
+ATOM     32  H6  DT  B   5      -5.172   7.536  -1.280  1.00  0.00           H  
+CONECT    1    3    2    4                                            
+CONECT    2    1                                                      
+CONECT    3    1                                                      
+CONECT    4    1    5                                                 
+CONECT    5    4   21   22    6                                       
+CONECT    5                                                           
+CONECT    6    5    7   23    8                                       
+CONECT    6                                                           
+CONECT    7   11    6                                                 
+CONECT    8    6   10   24    9                                       
+CONECT    8                                                           
+CONECT    9    8                                                      
+CONECT   10   25   11    8   26                                       
+CONECT   10                                                           
+CONECT   11   12    7   10   27                                       
+CONECT   11                                                           
+CONECT   12   20   13   11                                            
+CONECT   13   15   12   14                                            
+CONECT   14   13                                                      
+CONECT   15   16   28   13                                            
+CONECT   16   17   18   15                                            
+CONECT   17   16                                                      
+CONECT   18   19   16   20                                            
+CONECT   19   30   29   31   18                                       
+CONECT   19                                                           
+CONECT   20   18   32   12                                            
+CONECT   21    5                                                      
+CONECT   22    5                                                      
+CONECT   23    6                                                      
+CONECT   24    8                                                      
+CONECT   25   10                                                      
+CONECT   26   10                                                      
+CONECT   27   11                                                      
+CONECT   28   15                                                      
+CONECT   29   19                                                      
+CONECT   30   19                                                      
+CONECT   31   19                                                      
+CONECT   32   20                                                      
+END

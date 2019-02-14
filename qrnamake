@@ -1,0 +1,44 @@
+#!/bin/bash
+
+# Script to build QRNA
+# Invoke it as:
+#   $ ./qrnamake parallel
+# to get parallel version of QRNA (which should work in Linux/UNIX-compatible systems).
+# To get sequential (i.e. non-parallel) version (which is recommended for non-POSIX systems) type:
+#   $ ./qrnamake sequential
+
+CXX="g++"
+LFLAGS="-Wall -O3 -Iinclude"
+CFLAGS="--std=c++98 -Wall -O3 -Iinclude -c"
+
+echo "QRNA builder started"
+
+if [ "$@" == "parallel" ]; then
+  echo "Compiling parallel computational module..."
+  $CXX $CFLAGS -lpthread tmolecule.cpp main.cpp tconsts.cpp
+  LFLAGS=$LFLAGS" -pthread"
+elif [ "$@" == "sequential" ]; then
+  echo "Compiling sequential (i.e. non-parallel) computational module..."
+  $CXX $CFLAGS -DSEQUENTIAL tmolecule.cpp main.cpp tconsts.cpp
+else
+  echo "Unknown commandline option $@"
+  echo "Exiting."
+  exit 1
+fi
+
+echo "Compiling rest of QRNA..."
+if ! $CXX $CFLAGS tatom.cpp tbond.cpp tbasepair.cpp tangle.cpp thbond.cpp tdihed.cpp telectr.cpp tlennard.cpp timpro.cpp tposrestr.cpp tnonbond.cpp bprestr.cpp distrestr.cpp textutils.cpp tspring.cpp tvector.cpp; then
+  echo "Compilation errors occurred. Exiting."
+  exit 1
+fi
+
+echo "Linking..."
+if ! $CXX $LFLAGS tconsts.o tatom.o tbond.o tbasepair.o tangle.o tdihed.o telectr.o tlennard.o thbond.o timpro.o tnonbond.o bprestr.o distrestr.o tposrestr.o textutils.o tmolecule.o tspring.o tvector.o main.o -o QRNA; then
+  echo "Linking errors occurred. Exiting."
+  exit 1  
+fi
+
+echo "Performing cleanup..."
+rm -f *.o *~ *.gch
+
+echo "Done."

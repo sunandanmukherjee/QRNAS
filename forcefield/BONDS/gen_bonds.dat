@@ -1,0 +1,209 @@
+OW HW  553.0    0.9572    ! TIP3P water
+HW HW  553.0    1.5136      TIP3P water
+C  C   310.0    1.525       Junmei et al, 1999
+C  CA  469.0    1.409       JCC,7,(1986),230; (not used any more in TYR)
+C  CB  447.0    1.419       JCC,7,(1986),230; GUA
+C  CM  410.0    1.444       JCC,7,(1986),230; THY,URA
+C  CT  317.0    1.522       JCC,7,(1986),230; AA
+C  N   490.0    1.335       JCC,7,(1986),230; AA
+C  N*  424.0    1.383       JCC,7,(1986),230; CYT,URA
+C  NA  418.0    1.388       JCC,7,(1986),230; GUA.URA
+C  NC  457.0    1.358       JCC,7,(1986),230; CYT
+C  O   570.0    1.229       JCC,7,(1986),230; AA,CYT,GUA,THY,URA
+C  O2  656.0    1.250       JCC,7,(1986),230; GLU,ASP
+C  OH  450.0    1.364       JCC,7,(1986),230; (not used any more for TYR) 
+C  OS  450.0    1.323       Junmei et al, 1999
+C  H4  367.0    1.080       Junmei et al, 1999
+C  H5  367.0    1.080       Junmei et al, 1999
+CA CA  469.0    1.400       JCC,7,(1986),230; BENZENE,PHE,TRP,TYR
+CA CB  469.0    1.404       JCC,7,(1986),230; ADE,TRP
+CA CM  427.0    1.433       JCC,7,(1986),230; CYT
+CA CN  469.0    1.400       JCC,7,(1986),230; TRP
+CA CT  317.0    1.510       JCC,7,(1986),230; PHE,TYR
+CA HA  367.0    1.080       changed from 340. bsd on C6H6 nmodes; PHE,TRP,TYR
+CA H4  367.0    1.080       changed from 340. bsd on C6H6 nmodes; no assigned
+CA N2  481.0    1.340       JCC,7,(1986),230; ARG,CYT,GUA
+CA NA  427.0    1.381       JCC,7,(1986),230; GUA
+CA NC  483.0    1.339       JCC,7,(1986),230; ADE,CYT,GUA
+CA OH  450.0    1.364       substituted for C OH in tyr 
+CB CB  520.0    1.370       JCC,7,(1986),230; ADE,GUA
+CB N*  436.0    1.374       JCC,7,(1986),230; ADE,GUA
+CB NB  414.0    1.391       JCC,7,(1986),230; ADE,GUA
+CB NC  461.0    1.354       JCC,7,(1986),230; ADE,GUA
+CD HA  367.0    1.080       Junmei et al, 1999 
+CD CD  469.0    1.400       Junmei et al, 1999
+CD CM  549.0    1.350       Junmei et al, 1999
+CD CT  317.0    1.510       Junmei et al, 1999
+CK H5  367.0    1.080       changed from 340. bsd on C6H6 nmodes; ADE,GUA
+CK N*  440.0    1.371       JCC,7,(1986),230; ADE,GUA
+CK NB  529.0    1.304       JCC,7,(1986),230; ADE,GUA
+CM CM  549.0    1.350       JCC,7,(1986),230; CYT,THY,URA
+CM CT  317.0    1.510       JCC,7,(1986),230; THY
+CM HA  367.0    1.080       changed from 340. bsd on C6H6 nmodes; CYT,URA
+CM H4  367.0    1.080       changed from 340. bsd on C6H6 nmodes; CYT,URA
+CM H5  367.0    1.080       changed from 340. bsd on C6H6 nmodes; not assigned
+CM N*  448.0    1.365       JCC,7,(1986),230; CYT,THY,URA
+CM OS  480.0    1.240       Junmei et al, 1999
+CQ H5  367.0    1.080       changed from 340. bsd on C6H6 nmodes; ADE
+CQ NC  502.0    1.324       JCC,7,(1986),230; ADE
+CT CT  310.0    1.526       JCC,7,(1986),230; AA, SUGARS
+CT HC  340.0    1.090       changed from 331 bsd on NMA nmodes; AA, SUGARS
+CT H1  340.0    1.090       changed from 331 bsd on NMA nmodes; AA, RIBOSE
+CT H2  340.0    1.090       changed from 331 bsd on NMA nmodes; SUGARS
+CT H3  340.0    1.090       changed from 331 bsd on NMA nmodes; not assigned
+CT HP  340.0    1.090       changed from 331; AA lysine, methyl ammonium cation
+CT N*  337.0    1.475       JCC,7,(1986),230; ADE,CYT,GUA,THY,URA
+CT N2  337.0    1.463       JCC,7,(1986),230; ARG
+CT OH  320.0    1.410       JCC,7,(1986),230; SUGARS
+CT OS  320.0    1.410       JCC,7,(1986),230; NUCLEIC ACIDS
+C* HC  367.0    1.080       changed from 340. bsd on C6H6 nmodes, not needed AA
+C* CB  388.0    1.459       JCC,7,(1986),230; TRP
+C* CT  317.0    1.495       JCC,7,(1986),230; TRP
+C* CW  546.0    1.352       JCC,7,(1986),230; TRP
+CB CN  447.0    1.419       JCC,7,(1986),230; TRP
+CC CT  317.0    1.504       JCC,7,(1986),230; HIS
+CC CW  518.0    1.371       JCC,7,(1986),230; HIS(epsilon)
+CC NA  422.0    1.385       JCC,7,(1986),230; HIS
+CC NB  410.0    1.394       JCC,7,(1986),230; HIS
+CN NA  428.0    1.380       JCC,7,(1986),230; TRP
+CR H5  367.0    1.080       changed from 340. bsd on C6H6 nmodes;HIS
+CR NA  477.0    1.343       JCC,7,(1986),230; HIS
+CR NB  488.0    1.335       JCC,7,(1986),230; HIS
+CT N   337.0    1.449       JCC,7,(1986),230; AA
+CT N3  367.0    1.471       JCC,7,(1986),230; LYS
+CT NT  367.0    1.471       for neutral amines 
+CT S   227.0    1.810       changed from 222.0 based on dimethylS nmodes
+CT CZ  400.0    1.459       Howard et al JCC,16,243,1995
+CW H4  367.0    1.080       changed from 340. bsd on C6H6 nmodes;HIS(epsilon,+)
+CW NA  427.0    1.381       JCC,7,(1986),230; HIS,TRP
+CZ CZ  600.0    1.206       Howard et al JCC,16,243,1995
+CZ HZ  400.0    1.056       Howard et al JCC,16,243,1995
+O2 P   525.0    1.480       JCC,7,(1986),230; NA PHOSPHATES
+OH P   230.0    1.610       JCC,7,(1986),230; NA PHOSPHATES
+OS P   230.0    1.610       JCC,7,(1986),230; NA PHOSPHATES
+H  N2  434.0    1.010       JCC,7,(1986),230; ADE,CYT,GUA,ARG
+H  N*  434.0    1.010       for plain unmethylated bases ADE,CYT,GUA,ARG
+H  NA  434.0    1.010       JCC,7,(1986),230; GUA,URA,HIS
+H  N   434.0    1.010       JCC,7,(1986),230; AA
+H  N3  434.0    1.010       JCC,7,(1986),230; LYS    
+H  NT  434.0    1.010       for neutral amines 
+HO OH  553.0    0.960       JCC,7,(1986),230; SUGARS,SER,TYR
+HO OS  553.0    0.960       JCC,7,(1986),230; NUCLEOTIDE ENDS
+S  S   166.0    2.038       JCC,7,(1986),230; CYX   (SCHERAGA)
+LP O   600.0    0.200       or 0.35
+LP OH  600.0    0.200       or 0.35
+LP OS  600.0    0.200       or 0.35
+LP N3  600.0    0.200       or 0.35
+LP NT  600.0    0.200       or 0.35
+LP NB  600.0    0.200       or 0.35 histidines, nucleic acids
+LP NC  600.0    0.200       or 0.35 nucleic acids
+LP S   600.0    0.700       cys,cyx,met
+C  CM  449.9    1.461       same as c  c2
+C  CT  328.3    1.506       same as c  c3
+C  N   478.2    1.341       same as c  n
+C  N*  424      1.408       same as c  na
+C  NA  424      1.391       same as c  na
+C  NC  374.6    1.358       same as c  n2
+C  OH  466.4    1.328       same as c  oh
+C  OS  411.3    1.323       same as c  os
+C* CB  418.3    1.438       same as cc cc
+C* CT  328.3    1.503       same as c2 c3
+CA C*  411.7    1.35        same as ca cc
+CA CM  411.7    1.442       same as ca cc
+CA CT  328.3    1.499       same as c2 c3
+CA H4  344.3    1.069       same as c2 ha
+CA H5  344.3    1.073       same as c2 ha
+CA N*  411.1    1.368       same as c2 na
+CA N2  449      1.349       same as ca nh
+CA NA  411.1    1.354       same as c2 na
+CA NC  492.9    1.308       same as ca nc
+CA SS  280      1.688       same as c2 ss
+CB C   449.9    1.439       same as c  c2
+CB CA  411.7    1.403       same as ca cc
+CB CB  418.3    1.373       same as cc cc
+CB CM  418.3    1.394       same as cc cc
+CB NA  411.1    1.366       same as c2 na
+CC CA  411.7    1.344       same as ca cc
+CC CT  328.3    1.498       same as c2 c3
+CK H5  344.3    1.071       same as c2 ha
+CK NB  431.6    1.279       same as cc nc
+CM C   449.9    1.466       same as c  c2
+CM CM  418.3    1.344       same as cc cc
+CM CT  328.3    1.508       same as c2 c3
+CM CZ  625      1.35        same as c1 c2
+CM H4  344.3    1.074       same as c2 ha
+CM HA  344.3    1.072       same as c2 hc
+CM N   390.5    1.267       same as c2 n
+CM N2  449      1.313       same as cc nh
+CM NT  486.3    1.366       same as c2 n3
+CM OH  425.4    1.346       same as c2 oh
+CM OS  392.6    1.351       same as c2 os
+CM SS  280      1.651       same as c2 ss
+CQ CT  328.3    1.504       same as c2 c3
+CQ H5  344.3    1.075       same as c2 ha
+CQ S   280      1.769       same as c2 ss
+CR H5  344.3    1.07        same as c2 ha
+CR N*  411.1    1.302       same as c2 na
+CT C   328.3    1.54        same as c  c3
+CT CM  328.3    1.515       same as c2 c3
+CT CT  303.1    1.521       same as c3 c3
+CT H1  337.3    1.075       same as c3 hc
+CT H2  337.3    1.07        same as c3 hc
+CT HC  337.3    1.087       same as c3 hc
+CT HP  337.3    1.081       same as c3 hc
+CT N   330.6    1.445       same as c3 n
+CT N*  334.7    1.466       same as c3 na
+CT N2  320.6    1.462       same as c3 n3
+CT N3  293.6    1.512       same as c3 n4
+CT NT  320.6    1.454       same as c3 n3
+CT O   422.6    1.425       same as c3 o
+CT OH  314.1    1.418       same as c3 oh
+CT SO  225.8    1.794       same as c3 ss
+CZ NY  101.4    1.136       same as c1 n1
+N  C   478.2    1.36        same as c  n
+N  CT  330.6    1.447       same as c3 n
+N  H   410.2    0.998       same as hn n
+N* C   424      1.386       same as c  na
+N* CA  411.1    1.377       same as c2 na
+N* CB  411.1    1.359       same as c2 na
+N* CK  411.1    1.371       same as c2 na
+N* CM  411.1    1.372       same as c2 na
+N* CT  334.7    1.467       same as c3 na
+N* CZ  452      1.456       same as c1 na
+N* H   406.6    0.997       same as hn na
+N2 CA  449      1.363       same as ca nh
+N2 CB  449      1.367       same as cc nh
+N2 CK  449      1.382       same as cc nh
+N2 CM  449      1.389       same as cc nh
+N2 CR  449      1.334       same as cc nh
+N2 CT  320.6    1.453       same as c3 n3
+N2 H   394.1    0.996       same as hn n3
+N3 H   369      1.005       same as hn n4
+NA C   424      1.389       same as c  na
+NA CA  411.1    1.361       same as c2 na
+NA CM  411.1    1.377       same as c2 na
+NA H   406.6    0.998       same as hn na
+NB CB  431.6    1.368       same as cc nc
+NB CC  431.6    1.389       same as cc nc
+NC CA  492.9    1.296       same as ca nc
+NC CB  431.6    1.342       same as cc nc
+NC CM  431.6    1.309       same as cc nc
+NC CQ  431.6    1.319       same as cc nc
+NT H   394.1    1.002       same as hn n3
+OH HO  369.6    0.96        same as ho oh
+OS CT  301.5    1.438       same as c3 os
+P  O   456.4    1.486       same as o  p4
+P  OH  307.4    1.481       same as oh p4
+P  OS  311.6    1.598       same as os p4
+S  CT  225.8    1.808       same as c3 ss
+SO O   398.5    1.454       same as o  ss
+C2 H5  367.0    1.080       changed from 340. bsd on C6H6 nmodes; ADE,GUA 
+C2 N*  440.0    1.371       JCC,7,(1986),230; ADE,GUA 
+C2 NB  529.0    1.304       JCC,7,(1986),230; ADE,GUA 
+C  C1  410.0    1.444       JCC,7,(1986),230; THY,URA 
+CA C1  427.0    1.433       JCC,7,(1986),230; CYT 
+C1 C1  549.0    1.350       JCC,7,(1986),230; CYT,THY,URA 
+C1 CT  317.0    1.510       JCC,7,(1986),230; THY 
+C1 HA  367.0    1.080       changed from 340. bsd on C6H6 nmodes; CYT,URA 
+C1 H4  367.0    1.080       changed from 340. bsd on C6H6 nmodes; CYT,URA 
+C1 N*  448.0    1.365       JCC,7,(1986),230; CYT,THY,URA 
