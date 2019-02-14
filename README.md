@@ -100,9 +100,8 @@ Example:
 3.2. Running QRNAS with the configuration file
 	QRNAS optimization can be run using customized parameters (altering the default values). The alternate parameters should be provided in a configuration file. An example configuration file should be as following:
 
-
-# Sample config file for QRNA 0.2
-# Just uncomment the lines you need.
+#Sample config file for QRNAS 0.3
+#Just uncomment the lines you need
 
 #INPUTPDB   ./1l2x.pdb
 #OUTPUTPDB  ./1l2x_refined.pdb
@@ -138,10 +137,10 @@ Example:
 #POSRESTRAINTS 1	# {0,1} - Positional restraints (off/on), read from occupancy and beta-factors;
                 	# by default OFF
 
-# Secondary structure can be specified in two ways.
-# The deprecated and retarded way is via Vienna notation. It applies to the first chain only:
+#Secondary structure can be specified in two ways.
+#The deprecated and retarded way is via Vienna notation. It applies to the first chain only:
 #SECSTRUCT   (((....)))
-# The kosher and robust way is via pairwise restraints specified in a separate file:
+#The kosher and robust way is via pairwise restraints specified in a separate file:
 #RESTRFILE file_with_restraints.txt
 
 
@@ -158,9 +157,9 @@ WRITEFREQ  1000    # Frequency of writing outputPDB (each xxx steps); by default
 In the above example, the configuration file specifies 1l2x.pdb as input file (equivalent to -i argument in command-line) and 1l2x_refined.pdb as output file (equivalent to -o argument in command-line). The argument WRITEFREQ 1000, indicates QRNAS to write optimized structures after 1000 steps (instead of 100 which is default). QRNAS will ignore the last two lines (TRAJECTORY and VERBOSE since they are commented).
 
 QRNAS can be run with configuration files using -c flag:
-  $ QRNA -c <configuration_file>
+  	$ QRNA -c <configuration_file>
 Example:
-  $ QRNA -c config.txt
+ 	$ QRNA -c config.txt
 However, if -i and -o values are provided, QRNAS ignore INPUTPDB and OUTPUTPDB mentioned in configuration file.
  	$ QRNA -i 1l2x.pdb -o 1l2x_QRNAS.pdb -c config.txt
 
@@ -171,7 +170,7 @@ Secondary structure can be specified in two ways:
 The deprecated and retarded way is via Vienna notation. It applies to the first chain only and can be mentioned in the configuration file.
 
 Example:
-SECSTRUCT   (((....)))
+	SECSTRUCT   (((....)))
 
 4.1.2. Explicit restraints on base-pairs
 Watson-Crick (canonical) base-pairs can be restrained by specifying appropriate chain identifiers and residue numbers:
@@ -200,7 +199,7 @@ the pair of atoms (C2' from residue 4 in chain A  &  O3' from residue 5 in chain
 
 The restraints can be provided by mentioning the restraints in a file using -m flag in command-line:
 
-$ QRNA -i <input_pdb_file> -m <restraints_file>
+	$ QRNA -i <input_pdb_file> -m <restraints_file>
 Example:
 
 	$ QRNA -i 1l2x.pdb -m 1l2x_restraints.txt
@@ -214,7 +213,7 @@ If the occupancy is set between 0.00 and 1.00 , the residue is “pinned down”
 If the occupancy is set equal to 1.00, then the movement of the atom is not restricted (unless it is specified by other restraints).
 
 After modifying the occupancy and B-factor columns of the pdb file, -P along with -i flag should be used to run QRNAS optimization as follows:
-  $ QRNA -P -i <input_pdb_file>
+  	$ QRNA -P -i <input_pdb_file>
 Example:
 	$ QRNA -P -i 1l2x_occu_modified.pdb
 Here 1l2x_occu_modified.pdb is the input structure with altered occupancy and B-factor columns.
