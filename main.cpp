@@ -129,7 +129,7 @@ void DisplayInfo()
   std::clog << "QRNA - Quick Refinement of Nucleic Acids (version 0.3)\n" 
 	    << "     by Juliusz Stasiewicz (jstasiewicz@genesilico.pl)\n\n"
 	    << "To use type:\n"
-	    << "  QRNA -i <input PDBfile> [-o <output PDBfile>] [-c <configfile>] [-p] [-m <restraintsfile>]" << std::endl
+	    << "  QRNA -i <input PDBfile> [-o <output PDBfile>] [-c <configfile>] [-P] [-m <restraintsfile>]" << std::endl
 	    << "OR specify <input PDBfile>, <output PDBfile> and <restraintsfile> in <configfile> and type just:" << std::endl
 	    << "  QRNA -c <configfile>" << std::endl;
 }
