@@ -1,0 +1,22 @@
+# Sample restraint file for QRNA 0.2
+
+# You can impose Watson-Crick base pairs by specifying appropriate chain letters and residue numbers:
+BASEPAIR   B/1   A/32   
+BASEPAIR   B/2   A/31   
+BASEPAIR   B/3   A/30   
+# ...etc. Any non-WC base pairs will be rejected!
+
+# You can also specify distance restraints for pairs of atoms:
+DISTANCE   A/3/C4'   B/4/C3'    3    4    50
+DISTANCE   A/4/C2'   B/5/O3'    4    4    100
+DISTANCE   A/5/C1'   B/6/H2'    5.5  3.5  100
+# ...etc. The meaning of numbers is as follows: 
+# spring length = average of the first two [in Angstroms]
+# spring force constant = the third number
+
+# In this example: DISTANCE   A/3/C4'   B/4/C3'    3    4    50
+# we have pair of atoms (C4' from residue 3. in chain A  &  C3' from residue 4. in chain B)
+# bound by a spring of rest length of 3.5 A and force constant of 50 kcal/mol/A^2.
+# In case of: DISTANCE   A/4/C2'   B/5/O3'    4    4    100
+# we have pair of atoms (C2' from residue 4. in chain A  &  O3' from residue 5. in chain B)
+# bound by a spring of rest length of 4 A and force constant of 100 kcal/mol/A^2.
