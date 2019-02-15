@@ -84,7 +84,7 @@ The first step is to install Xcode from the Mac App store. After installing the 
 A pop-up windows will open and continue the installation following the on-screen instructions. The remaining steps for compilation and setting environment variables are same as described in section 2.1
 
 
-# QRNAS usage
+# 3. QRNAS usage
 
 ## 3.1. Running QRNAS without configuration file
 
