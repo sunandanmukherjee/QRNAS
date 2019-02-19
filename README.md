@@ -78,12 +78,16 @@ In order to use QRNAS on Microsoft Windows 10, the first step is to enable Windo
 After rebooting the system, open windows command prompt and type bash, Follow the on-screen instructions and wait for installation to complete.
 The remaining steps for installation are same as described in section 2.1
 
-2.3 Installation on Mac OS
+## 2.3 Installation on Mac OS
 The first step is to install Xcode from the Mac App store. After installing the xcode, open Mac terminal app type the following command to install the command line tools necessary for compiling QRNAS
 
   	$ xcode-select --install
 
 A pop-up windows will open and continue the installation following the on-screen instructions. The remaining steps for compilation and setting environment variables are same as described in section 2.1
+	
+	** While installing in Mac OS, it is expected to get some warnings (not errors) during compilation. 
+	These warnings are because of cross-platforms compilation problem and shold be ignore. Once installed
+	QRNAS should work as usual.
 
 
 # 3. QRNAS usage
