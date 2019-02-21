@@ -84,10 +84,6 @@ The first step is to install Xcode from the Mac App store. After installing the 
   	$ xcode-select --install
 
 A pop-up windows will open and continue the installation following the on-screen instructions. The remaining steps for compilation and setting environment variables are same as described in section 2.1
-	
-	** While installing in Mac OS, it is expected to get some warnings (not errors) during compilation. 
-	These warnings are because of cross-platforms compilation problem and shold be ignore. Once installed
-	QRNAS should work as usual.
 
 
 # 3. QRNAS usage
