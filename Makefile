@@ -14,14 +14,9 @@ default: sequential
 
 sequential:
 	$(CXX) $(CXXFLAGS) $(LDFLAGS_S) -o $(TARGET) $(SOURCES)
-#	$(CXX) $(CXXFLAGS) $(LDFLAGS_S) -c $(SOURCES)
-#	$(CXX) $(CXXFLAGS) $(LDFLAGS_S) -o $(TARGET) $(OBJECTS)
 
 parallel:
 	$(CXX) $(CXXFLAGS) $(LDFLAGS_P) -o $(TARGET) $(SOURCES)
-#	$(CXX) $(CXXFLAGS) $(LDFLAGS_P) -c $(SOURCES)
-#	$(CXX) $(CXXFLAGS) $(LDFLAGS_P) -o $(TARGET) $(OBJECTS)
-
+	
 clean:
 	rm -f $(OBJECTS) $(TARGET)
-# 
