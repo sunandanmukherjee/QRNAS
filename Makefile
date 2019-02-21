@@ -1,5 +1,5 @@
 CXX = g++
-CXXFLAGS = --std=c++03 -Wall -O3 -Iinclude
+CXXFLAGS = --std=c++03 -w -O3 -Iinclude
 LDFLAGS_P = -pthread
 LDFLAGS_S = -DSEQUENTIAL
 
