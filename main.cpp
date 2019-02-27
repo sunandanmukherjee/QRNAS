@@ -1,7 +1,8 @@
-/***************************************************************************************************
-* QRNA - Quick Refinement of Nucleic Acids by Juliusz Stasiewicz (jstasiewicz@genesilico.pl)
+/************************************************************************************************************
+* QRNAS: software tool for refinement of nucleic acid structures 
+* by Juliusz Stasiewicz (jstasiewicz@genesilico.pl), Sunandan Mukherjee, Chandran Nithin, and Janusz M Bujnicki
 * main.cpp - this is the main program file.
-***************************************************************************************************/
+*************************************************************************************************************/
 
 #include "main.h"
 
@@ -126,8 +127,8 @@ bool bParseArgs(int iArgC, char* ppcArgV[])
 //---------------------------------------------------------------------------------------------------
 void DisplayInfo()
 {
-  std::clog << "QRNA - Quick Refinement of Nucleic Acids (version 0.3)\n" 
-	    << "     by Juliusz Stasiewicz (jstasiewicz@genesilico.pl)\n\n"
+  std::clog << "QRNAS: software tool for refinement of nucleic acid structures (version 0.3)\n" 
+	    << "       by Juliusz Stasiewicz (jstasiewicz@genesilico.pl), Sunandan Mukherjee, Chandran Nithin, Janusz M Bujnicki\n\n"
 	    << "To use type:\n"
 	    << "  QRNA -i <input PDBfile> [-o <output PDBfile>] [-c <configfile>] [-P] [-m <restraintsfile>]" << std::endl
 	    << "OR specify <input PDBfile>, <output PDBfile> and <restraintsfile> in <configfile> and type just:" << std::endl
