@@ -1,4 +1,4 @@
-QRNA 0.2 - Quick Refinement of Nucleic Acids 0.2
+QRNA 0.3 - Quick Refinement of Nucleic Acids 0.3
 Julek Stasiewicz 2012
 
 The command to build multiprocessor version of QRNA is:
@@ -34,7 +34,7 @@ Example use cases:
   (if they collide with pdbfile.pdb or outfile.pdb respectively). 
   Same thing applies to commandline option `-m restrfile.txt' vs. `RESTRFILE otherrestrfile.txt' in configfile.txt.
   
-  $ ./QRNA -p -i pdbfile.pdb
+  $ ./QRNA -P -i pdbfile.pdb
   It minimizes pdbfile.pdb and writes pdbfile_out.pdb every 100 steps. 
   All default parameters are used.
   Occupancy and beta-factors in pdbfile.pdb are treated as restraint information exactly as by SimRNA:
