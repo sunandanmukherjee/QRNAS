@@ -1,5 +1,6 @@
 # QRNAS
 QRNAS: Quick Refinement of Nucleic Acid Structures
+
 BMC Structural Biology (in press)
 
 QRNAS is free (GNU GPLv3+ license). The software is written in C++. Source code is available for GNU/Linux distributions.
