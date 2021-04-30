@@ -118,7 +118,8 @@ Example:
 
 
 ## 3.2. Running QRNAS with the configuration file
-	QRNAS optimization can be run using customized parameters (altering the default values). The alternate parameters should be provided in a configuration file. An example configuration file should be as following:
+
+QRNAS optimization can be run using customized parameters (altering the default values). The alternate parameters should be provided in a configuration file. An example configuration file should be as following:
 
 	#Sample config file for QRNAS 0.3
 	#Just uncomment the lines you need
