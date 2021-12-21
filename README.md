@@ -39,7 +39,7 @@ Once the compiler is installed QRNAS can be extracted and compiled as described 
 
 ### 2.1.2 Extraction of QRNAS
 
-The QRNAS source code is provided as a standard tar.gz archive file. The file can be downloaded from the url: http://genesilico.pl/QRNAS/QRNAS.tgz. After downloading, the file can be extracted using the following command:
+The QRNAS source code is provided as a standard tar.gz archive file. The file can be downloaded from the url: http://genesilico.pl/QRNAS/QRNAS.tar.gz. After downloading, the file can be extracted using the following command:
 
   	$ tar -xvzf QRNAS.tar.gz
 
