@@ -91,7 +91,7 @@ bool TAtom::bRecognizeName()
 }
 
 //---------------------------------------------------------------------------------------------------
-bool TAtom::bRecognizeType()
+bool TAtom::bRecognizeType()  // upgraded by Sunandan on 30.05.2024
 {
 /******************************************************************************************************
  *  Now: read the partial atomic charges from appropriate *.dscr file.
@@ -100,7 +100,7 @@ bool TAtom::bRecognizeType()
   bool bRetVal = false;
   std::string sLine, sAtomType; 
   std::ifstream ifsIn((TConsts::PREPDIR+sResidue+".dscr").c_str());
-  if(ifsIn != NULL)
+  if (ifsIn.is_open()) 
   {
     while(std::getline(ifsIn, sLine))
     {
@@ -243,25 +243,39 @@ bool TAtom::bAssignTag(std::string _sLine)
 }
 
 //---------------------------------------------------------------------------------------------------
-bool TAtom::bWrite(std::ostream& _osOut_) const
-{
-  bool bHetatm = sResidue != "A" && sResidue != "RA3" && sResidue != "RA5" && sResidue != "RAN" &&
-		 sResidue != "C" && sResidue != "RC3" && sResidue != "RC5" && sResidue != "RCN" &&
-		 sResidue != "G" && sResidue != "RG3" && sResidue != "RG5" && sResidue != "RGN" &&
-		 sResidue != "U" && sResidue != "RU3" && sResidue != "RU5" && sResidue != "RUN" ;
-
-  return (_osOut_ << (bHetatm ? "HETATM" : "ATOM  ")
-		  << std::setfill(' ') << std::right 
-		  << std::setw(5) << iNum%100000 << ' '
-		  << std::left  << std::setw(4) << ((sName.length() < 4 ? " " : "") + sName) << ' '
-		  << std::right << std::setw(3) << sResidue 
-		  << sResIdent << "   "
-		  << std::right << std::fixed << std::setprecision(3) 
-		  << std::setw(8) << dX 
-		  << std::setw(8) << dY 
-		  << std::setw(8) << dZ 
-		  << (sPDB_tag.length() >= 80 ? sPDB_tag.substr(54, 26) : "") << std::endl);
+std::string convertResidueName(const std::string& resName) {	//added by Sunandan on 16.07.2024
+    if (resName == "RA3" || resName == "RA5" || resName == "RAN") return "A";
+    if (resName == "RU3" || resName == "RU5" || resName == "RUN") return "U";
+    if (resName == "RG3" || resName == "RG5" || resName == "RGN") return "G";
+    if (resName == "RC3" || resName == "RC5" || resName == "RCN") return "C";
+    if (resName == "RT3" || resName == "RT5" || resName == "RTN") return "T";
+    return resName; // Return original name if no conversion is needed
 }
+
+//---------------------------------------------------------------------------------------------------
+bool TAtom::bWrite(std::ostream& _osOut_) const  //upgraded by Sunandan on 30.05.2024
+{
+    bool bHetatm = sResidue != "A" && sResidue != "RA3" && sResidue != "RA5" && sResidue != "RAN" &&
+                   sResidue != "C" && sResidue != "RC3" && sResidue != "RC5" && sResidue != "RCN" &&
+                   sResidue != "G" && sResidue != "RG3" && sResidue != "RG5" && sResidue != "RGN" &&
+                   sResidue != "U" && sResidue != "RU3" && sResidue != "RU5" && sResidue != "RUN";
+
+	_osOut_ << (bHetatm ? "HETATM" : "ATOM  ")
+        << std::setfill(' ') << std::right 
+        << std::setw(5) << iNum % 100000 << ' '
+        << std::left << std::setw(4) << ((sName.length() < 4 ? " " : "") + sName) << ' '
+        << std::right << std::setw(3) << convertResidueName(sResidue) 
+        << sResIdent << "   "
+        << std::right << std::fixed << std::setprecision(3) 
+        << std::setw(8) << dX 
+        << std::setw(8) << dY 
+        << std::setw(8) << dZ
+        << "  1.00  0.00          "
+        << std::left << sName[0] // Extract the first character of the atom name for atom type
+        << std::endl;
+    return _osOut_.good();
+}
+
 
 //---------------------------------------------------------------------------------------------------
 bool TAtom::bRecognize()
